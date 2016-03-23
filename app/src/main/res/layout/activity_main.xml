@@ -16,10 +16,10 @@
         android:id="@+id/btn_ingresar"
         android:onClick="onButtonClick"
         android:background="#ff5722"
-        android:layout_alignTop="@+id/btn_singin"
-        android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:layout_above="@+id/btn_singin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,14 +64,13 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrarme"
+        android:text="Registro"
         android:id="@+id/btn_singin"
         android:onClick="onButtonClick"
         android:background="#ff5722"
-        android:layout_below="@+id/tv_pass"
-        android:layout_alignRight="@+id/tv_pass"
-        android:layout_alignEnd="@+id/tv_pass"
-        android:layout_marginTop="75dp"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:layout_marginBottom="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

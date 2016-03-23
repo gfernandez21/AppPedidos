@@ -15,7 +15,26 @@ public class RegistraActivity extends AppCompatActivity {
         setContentView(R.layout.activity_registra);
     }
 
+
+
+    public void lim(){
+
+        EditText name1 = (EditText)findViewById(R.id.tv_nombre);
+        EditText email1 = (EditText)findViewById(R.id.tv_correo);
+        EditText user1 = (EditText)findViewById(R.id.tv_usuario);
+        EditText pass11 = (EditText)findViewById(R.id.tv_pass1);
+        EditText pass21 = (EditText)findViewById(R.id.tv_pass2);
+
+        name1.setText("");
+        email1.setText("");
+        user1.setText("");
+        pass11.setText("");
+        pass21.setText("");
+
+    }
+
     public void onSignUpClick(View v){
+
 
         if(v.getId() == R.id.btn_registrar){
 
@@ -31,7 +50,15 @@ public class RegistraActivity extends AppCompatActivity {
             String pass1str = pass1.getText().toString();
             String pass2str = pass2.getText().toString();
 
-            if (!pass1str.equals(pass2str)){
+            if (namstr.equals("") || emailstr.equals("") || userstr.equals("")|| pass1str.equals("")|| pass2str.equals("")){
+
+                //popup msg
+                Toast pass = Toast.makeText(RegistraActivity.this , "Favor completar todos los campos", Toast.LENGTH_SHORT);
+                pass.show();
+
+            }
+
+            else if (!pass1str.equals(pass2str)){
 
                 //popup msg
                 Toast pass = Toast.makeText(RegistraActivity.this , "Las passwords no coinciden!", Toast.LENGTH_SHORT);
@@ -48,6 +75,7 @@ public class RegistraActivity extends AppCompatActivity {
                 c.setPass(pass1str);
 
                 helper.insertContact(c);
+                lim();
             }
 
 

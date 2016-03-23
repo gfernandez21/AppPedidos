@@ -27,20 +27,29 @@ public class MainActivity extends AppCompatActivity {
             String pass = b.getText().toString();
 
             String password = helper.searchPass(str);
-            if (pass.equals(password)){
 
-                Intent i = new Intent(MainActivity.this, PrincipalActivity.class);
+            if (pass.equals("") || str.equals("")){
+
+                Toast temp = Toast.makeText(MainActivity.this , "Favor ingresar y/o usuario y password!", Toast.LENGTH_SHORT);
+                temp.show();
+
+            }
+            else if (pass.equals(password)){
+
+                Intent i = new Intent(MainActivity.this, NavigationActivity.class);
                 i.putExtra("Username",str);
                 startActivity(i);
 
             }
-            else{
 
+            else{
                 //popup msg
-                Toast temp = Toast.makeText(MainActivity.this , "Usuario y Password incorrectos!", Toast.LENGTH_SHORT);
+                Toast temp = Toast.makeText(MainActivity.this , "Usuario y/o Password incorrectos!", Toast.LENGTH_SHORT);
                 temp.show();
 
             }
+
+
 
 
         }
