@@ -1,5 +1,6 @@
 package net.gabrielf.apppedidos;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -76,6 +77,8 @@ public class RegistraActivity extends AppCompatActivity {
 
                 helper.insertContact(c);
                 lim();
+                Intent i = new Intent(RegistraActivity.this, MainActivity.class);
+                startActivity(i);
             }
 
 

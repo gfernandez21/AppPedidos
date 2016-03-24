@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (pass.equals("") || str.equals("")){
 
-                Toast temp = Toast.makeText(MainActivity.this , "Favor ingresar y/o usuario y password!", Toast.LENGTH_SHORT);
+                Toast temp = Toast.makeText(MainActivity.this , "Favor ingresar usuario y/o password!", Toast.LENGTH_SHORT);
                 temp.show();
 
             }
