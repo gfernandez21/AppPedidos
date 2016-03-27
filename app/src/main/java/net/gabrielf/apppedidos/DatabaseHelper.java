@@ -22,10 +22,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
     int COL_ID_INDEX=0;
-    int COL_UNAME_INDEX=1;
-    int COL_PASSWORD_INDEX=2;
-    int COL_NAME_INDEX=3;
-    int COL_EMAIL_INDEX=4;
+    int COL_NAME_INDEX=1;
+    int COL_EMAIL_INDEX=2;
+    int COL_UNAME_INDEX=3;
+    int COL_PASSWORD_INDEX=4;
 
 
     SQLiteDatabase db;

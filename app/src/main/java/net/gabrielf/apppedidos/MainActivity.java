@@ -7,14 +7,59 @@ import android.content.Intent;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.mobsandgeeks.saripaar.Validator;
+import com.mobsandgeeks.saripaar.ValidationError;
+import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity implements Validator.ValidationListener  {
+
+    @NotEmpty(message = "Escriba su usuario" )
+    EditText nombreEditText;
+    @NotEmpty(message = "Escriba su password" )
+    EditText passwordEditText;
+    Validator validator;
+
+
+    @Override
+    public void onValidationSucceeded() {
+        Toast.makeText(this, "Datos ingresados correctamente", Toast.LENGTH_SHORT).show();
+    }
+
+
+
+    @Override
+    public void onValidationFailed(List<ValidationError> errors)
+    {
+        for (ValidationError error : errors)
+        {
+            View view = error.getView();
+            String message = error.getCollatedErrorMessage(this);
+
+            if (view instanceof EditText) {
+                ((EditText) view).setError(message);
+            }
+            else
+            {
+                Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+            }
+        }
+    }
+
 
     DatabaseHelper helper = new DatabaseHelper(this);
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        nombreEditText = (EditText)findViewById(R.id.tv_user);
+        passwordEditText = (EditText)findViewById(R.id.tv_pass);
+
+        validator = new Validator(this);
+        validator.setValidationListener(this);
     }
 
     public void onButtonClick(View v){
@@ -30,8 +75,9 @@ public class MainActivity extends AppCompatActivity {
 
             if (pass.equals("") || str.equals("")){
 
-                Toast temp = Toast.makeText(MainActivity.this , "Favor ingresar usuario y/o password!", Toast.LENGTH_SHORT);
-                temp.show();
+                //Toast temp = Toast.makeText(MainActivity.this , "Favor ingresar usuario y/o password!", Toast.LENGTH_SHORT);
+                //temp.show();
+                validator.validate();
 
             }
             else if (pass.equals(password)){
@@ -46,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
                 //popup msg
                 Toast temp = Toast.makeText(MainActivity.this , "Usuario y/o Password incorrectos!", Toast.LENGTH_SHORT);
                 temp.show();
+
+
 
             }
 
