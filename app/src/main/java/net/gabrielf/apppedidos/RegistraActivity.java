@@ -37,8 +37,6 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
     public void onValidationSucceeded() {
         regis();
         Toast.makeText(this, "Datos ingresados correctamente", Toast.LENGTH_SHORT).show();
-
-
     }
 
 
@@ -115,6 +113,8 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
             String pass1str = pass1.getText().toString();
             String pass2str = pass2.getText().toString();
 
+            String usuario = helper.searchUser(namstr);
+
             if (namstr.equals("") || emailstr.equals("") || userstr.equals("") ||pass1str.equals("") || pass2str.equals("")){
 
                 //popup msg
@@ -133,16 +133,20 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
 
             }
 
+            else if (namstr.equals(usuario)){
+
+                //popup msg
+                Toast usu = Toast.makeText(RegistraActivity.this , "El nombre de usuario ya existe", Toast.LENGTH_SHORT);
+                usu.show();
+                //validator.validate();
+
+            }
+
             else if (!validator.equals(null) && !validator.equals("")){
 
                 validator.validate();
             }
-
-
-
-
         }
-
     }
 
     public void regis(){
@@ -170,8 +174,5 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
         Intent i = new Intent(RegistraActivity.this, MainActivity.class);
         startActivity(i);
 
-
     }
-
-
 }

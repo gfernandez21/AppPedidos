@@ -98,4 +98,30 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             this.onCreate(db);
 
     }
+
+    public String searchUser(String uname){
+
+        db = this.getReadableDatabase();
+        String query ="select * from " + TABLE_NAME;
+        Cursor cursor = db.rawQuery(query, null);
+        String a, b;
+        a = "not found";
+        if (cursor.moveToFirst()){
+
+            do {
+
+                a= cursor.getString(COL_UNAME_INDEX);
+                //b= cursor.getString(COL_PASSWORD_INDEX);
+                if (a.equals(uname)){
+
+                    a = cursor.getString(COL_UNAME_INDEX);
+                    break;
+                }
+
+            }
+            while (cursor.moveToNext());
+
+        }
+        return a;
+    }
 }
