@@ -15,12 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PrincipalActivity" />
         <activity android:name=".RegistraActivity" />
         <activity
             android:name=".NavigationActivity"
             android:label="@string/title_activity_navigation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegistraProdActivity" />
+        <activity android:name=".ListaActivity" />
+        <activity android:name=".EliminarActivity" />
+        <activity android:name=".Pre_modificarActivity" />
+        <activity android:name=".ModificarActivity"></activity>
     </application>
 
 </manifest>

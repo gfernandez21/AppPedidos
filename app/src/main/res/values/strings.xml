@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppPedidos</string>
+    <string name="app_name">App Pedidos</string>
     <string name="emptyString" />
     <string name="emptyString2" />
     <string name="title_activity_navigation">NavigationActivity</string>

@@ -113,7 +113,8 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
             String pass1str = pass1.getText().toString();
             String pass2str = pass2.getText().toString();
 
-            String usuario = helper.searchUser(namstr);
+            String usuario = helper.searchUser(userstr);
+            String mail = helper.searchEmail(emailstr);
 
             if (namstr.equals("") || emailstr.equals("") || userstr.equals("") ||pass1str.equals("") || pass2str.equals("")){
 
@@ -133,10 +134,19 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
 
             }
 
-            else if (namstr.equals(usuario)){
+            else if (userstr.equals(usuario)){
 
                 //popup msg
                 Toast usu = Toast.makeText(RegistraActivity.this , "El nombre de usuario ya existe", Toast.LENGTH_SHORT);
+                usu.show();
+                //validator.validate();
+
+            }
+
+            else if (emailstr.equals(mail)){
+
+                //popup msg
+                Toast usu = Toast.makeText(RegistraActivity.this , "El email ya se encuentra registrado", Toast.LENGTH_SHORT);
                 usu.show();
                 //validator.validate();
 

@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
             String pass = b.getText().toString();
 
             String password = helper.searchPass(str);
+            String usuario = helper.searchUser(str);
 
             if (pass.equals("") || str.equals("")){
 
@@ -80,11 +81,12 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
                 validator.validate();
 
             }
-            else if (pass.equals(password)){
+            else if (pass.equals(password) && str.equals(usuario)){
 
                 Intent i = new Intent(MainActivity.this, NavigationActivity.class);
                 i.putExtra("Username",str);
                 startActivity(i);
+
 
             }
 

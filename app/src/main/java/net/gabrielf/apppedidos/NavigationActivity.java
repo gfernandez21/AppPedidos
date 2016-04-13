@@ -1,5 +1,6 @@
 package net.gabrielf.apppedidos;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -97,12 +98,24 @@ public class NavigationActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
+            Intent i = new Intent(this, RegistraProdActivity.class);
+            startActivity(i);
 
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void onCategoriaPizzaClick(View v){
+
+        if (v.getId() == R.id.imageButton11) {
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
     }
 
 

@@ -1,0 +1,77 @@
+package net.gabrielf.apppedidos;
+
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.database.Cursor;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+public class ModificarActivity extends AppCompatActivity {
+
+    DatabaseHelper dbHandler;
+    EditText nombreprod_input;
+    EditText detalleprod_input;
+    EditText precio_input;
+    int idglobal;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_modificar);
+
+        nombreprod_input = (EditText) findViewById(R.id.tv_nomProd);
+        detalleprod_input = (EditText) findViewById(R.id.tv_detalleProd);
+        precio_input = (EditText) findViewById(R.id.tv_precioProd);
+        dbHandler = new DatabaseHelper(this);
+        Item item = new Item();
+        Intent i = getIntent(); // gets the previously created intent
+        String stringid = i.getStringExtra("id_item");
+        int id = Integer.parseInt(stringid);
+        Cursor c = dbHandler.itemByid(id);
+
+        //Vuelve a rellenar los inputs con los valores del cursor
+        nombreprod_input.setText(c.getString(c.getColumnIndexOrThrow("nombreprod")));
+        detalleprod_input.setText(c.getString(c.getColumnIndexOrThrow("detalleprod")));
+        precio_input.setText(c.getString(c.getColumnIndexOrThrow("precioprod")));
+        idglobal = c.getInt(c.getColumnIndexOrThrow("_id"));
+    }
+
+    public void modificar_clicked(View view){
+
+        Item item = new Item(nombreprod_input.getText().toString(), detalleprod_input.getText().toString(), Integer.parseInt(precio_input.getText().toString()));
+        item.set_id(idglobal);
+        dbHandler.updateItem(item);
+        confirmacion();
+        limpiarcampos();
+        finish(); //Termina la actividad y vuelve al menu principal
+
+    }
+
+    public void confirmacion(){
+
+        AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
+        dlgAlert.setMessage("Se ha modificado exitosamente!");
+        dlgAlert.setTitle("Agregar item");
+        dlgAlert.setPositiveButton("Ok",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        //dismiss the dialog
+                    }
+                });
+        dlgAlert.setCancelable(true);
+        dlgAlert.create().show();
+    }
+
+    //Limpia los valores entrados para efectos de estetica
+    public void limpiarcampos(){
+
+        nombreprod_input.setText("");
+        detalleprod_input.setText("");
+        precio_input.setText("");
+
+    }
+}
