@@ -8,14 +8,50 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
-public class ModificarActivity extends AppCompatActivity {
+import com.mobsandgeeks.saripaar.ValidationError;
+import com.mobsandgeeks.saripaar.Validator;
+import com.mobsandgeeks.saripaar.annotation.NotEmpty;
+
+import java.util.List;
+
+public class ModificarActivity extends AppCompatActivity implements Validator.ValidationListener {
 
     DatabaseHelper dbHandler;
+    @NotEmpty(message = "Debe ingresar nombre" )
     EditText nombreprod_input;
+    @NotEmpty(message = "Debe ingresar detalle" )
     EditText detalleprod_input;
+    @NotEmpty(message = "Debe ingresar precio" )
     EditText precio_input;
     int idglobal;
+    Validator validator;
+
+    @Override
+    public void onValidationSucceeded() {
+        //Toast.makeText(this, "Dato ingresado correctamente", Toast.LENGTH_SHORT).show();
+    }
+
+
+
+    @Override
+    public void onValidationFailed(List<ValidationError> errors)
+    {
+        for (ValidationError error : errors)
+        {
+            View view = error.getView();
+            String message = error.getCollatedErrorMessage(this);
+
+            if (view instanceof EditText) {
+                ((EditText) view).setError(message);
+            }
+            else
+            {
+                Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+            }
+        }
+    }
 
 
     @Override
@@ -38,16 +74,37 @@ public class ModificarActivity extends AppCompatActivity {
         detalleprod_input.setText(c.getString(c.getColumnIndexOrThrow("detalleprod")));
         precio_input.setText(c.getString(c.getColumnIndexOrThrow("precioprod")));
         idglobal = c.getInt(c.getColumnIndexOrThrow("_id"));
+
+        validator = new Validator(this);
+        validator.setValidationListener(this);
     }
 
     public void modificar_clicked(View view){
 
-        Item item = new Item(nombreprod_input.getText().toString(), detalleprod_input.getText().toString(), Integer.parseInt(precio_input.getText().toString()));
-        item.set_id(idglobal);
-        dbHandler.updateItem(item);
-        confirmacion();
-        limpiarcampos();
-        finish(); //Termina la actividad y vuelve al menu principal
+        EditText a = (EditText)findViewById(R.id.tv_nomProd);
+        String name = a.getText().toString();
+
+        EditText b = (EditText)findViewById(R.id.tv_detalleProd);
+        String deta = b.getText().toString();
+
+        EditText c = (EditText)findViewById(R.id.tv_precioProd);
+        String precio = c.getText().toString();
+
+        if (name.equals("") || deta.equals("") || precio.equals("")){
+
+            validator.validate();
+        }
+        else{
+            Item item = new Item(nombreprod_input.getText().toString(), detalleprod_input.getText().toString(), Integer.parseInt(precio_input.getText().toString()));
+            item.set_id(idglobal);
+            dbHandler.updateItem(item);
+            confirmacion();
+            limpiarcampos();
+            finish(); //Termina la actividad y vuelve al menu principal
+
+        }
+
+
 
     }
 

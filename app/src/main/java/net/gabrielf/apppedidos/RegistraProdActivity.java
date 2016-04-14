@@ -134,8 +134,8 @@ public class RegistraProdActivity extends AppCompatActivity implements Validator
         startActivity(i);
     }
 
-    public void onModificar(View view){
-        Intent i = new Intent(this, ModificarActivity.class);
+    public void premodificar(View view){
+        Intent i = new Intent(this, Pre_modificarActivity.class);
         startActivity(i);
     }
 }

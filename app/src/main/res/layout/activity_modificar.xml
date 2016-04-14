@@ -46,6 +46,6 @@
         android:layout_centerHorizontal="true"
         android:background="#ff5722"
         android:textColor="#ffffff"
-        android:onClick="onSignUpClick" />
+        android:onClick="modificar_clicked" />
 
 </RelativeLayout>
