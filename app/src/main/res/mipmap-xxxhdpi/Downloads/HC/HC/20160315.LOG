@@ -1,0 +1,865 @@
+2016/03/15 08:34:56 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="204" ttrans="0" fecha="150316083454" operador="90406468" total="240" canal="0"><LS><L  id="3" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="6" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 08:34:56 answer: 000330|0|E106|2|204|150316083454|&0002
+2016/03/15 08:34:59 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="204" ttrans="0" fecha="150316083457" operador="90406468" total="120" canal="0"><LS><L  id="3" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="6" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="9" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 08:34:59 answer: 000330|0|E106|2|204|150316083457|&0002
+2016/03/15 08:35:05 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="204" ttrans="0" fecha="150316083503" operador="90406468" total="120" canal="0"><LS><L  id="3" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="6" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="9" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="11" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 08:35:05 answer: 000330|0|E106|2|204|150316083503|&0002
+2016/03/15 08:38:59 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="205" ttrans="0" fecha="150316083857" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 08:38:59 answer: 000330|0|E106|2|205|150316083857|&0002
+2016/03/15 08:39:03 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="205" ttrans="0" fecha="150316083902" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="10" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 08:39:03 answer: 000330|0|E106|2|205|150316083902|&0002
+2016/03/15 08:45:57 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="206" ttrans="0" fecha="150316084556" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 08:45:57 answer: 000330|0|E106|2|206|150316084556|&0002
+2016/03/15 08:46:02 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="206" ttrans="0" fecha="150316084600" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 08:46:02 answer: 000330|0|E106|2|206|150316084600|&0002
+2016/03/15 08:46:08 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="206" ttrans="0" fecha="150316084606" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 08:46:08 answer: 000330|0|E106|2|206|150316084606|&0002
+2016/03/15 09:08:35 req: <pangui><O oper="recarga_parcial" file="P0001088.XML" /></pangui>
+2016/03/15 09:08:35 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 09:08:35 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 09:08:35 system: Recarga parcial  - usuario: ea1396 - secuencia: 2083
+2016/03/15 09:08:35 system: Prom 415 (1086) - Prueba Anclaje 2 (V)
+2016/03/15 09:08:35 system: fin carga promociones
+2016/03/15 09:16:36 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 09:16:36 system: Config file: C:/PANGUI/promo.pro
+2016/03/15 09:16:36 system: server socket port = 7451
+2016/03/15 09:16:36 system: socket configured as non blocking
+2016/03/15 09:16:36 system: instanciar  ControlerPromociones
+2016/03/15 09:16:36 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 09:16:36 system: tamaño archivo unificado promociones = 68265
+2016/03/15 09:16:36 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 09:16:36 system: tamaño archivo unificado promociones = 68265
+2016/03/15 09:16:36 system: Recarga Promociones FULL - usuario: ea1396 - secuencia: 2063
+2016/03/15 09:16:36 warning: xml tipos promocion no encontrado
+2016/03/15 09:16:36 warning: xml tasas no encontrado
+2016/03/15 09:16:36 warning: xml tasas tpago no encontrado
+2016/03/15 09:16:36 warning: xml marca tarjetas no encontrado
+2016/03/15 09:16:36 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 09:16:36 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 09:16:36 warning: xml exclusion garantia no encontrado
+2016/03/15 09:16:36 warning: xml locales no encontrado
+2016/03/15 09:16:36 warning: xml tasas diferenciales no encontrado
+2016/03/15 09:16:36 warning: xml PRM_TIENDA no encontrado
+2016/03/15 09:16:37 system: carga datos promociones  = 11
+2016/03/15 09:16:37 system: liberada mem promociones ant
+2016/03/15 09:16:37 system: Prom 233 (629) - PRUEBA MUNDO EXPERTO (V)
+2016/03/15 09:16:37 system: Prom 273 (797) - Club Argenta (V)
+2016/03/15 09:16:37 system: Prom 364 (978) - Prueba motor linux (V)
+2016/03/15 09:16:37 system: Prom 308 (982) - CLARIN 365 (V)
+2016/03/15 09:16:37 system: Prom 365 (983) - Empleado (V)
+2016/03/15 09:16:37 system: Prom 407 (1065) - OI - COMBO PINTURAS LATEX + ENDUIDO (V)
+2016/03/15 09:16:37 system: Prom 408 (1066) - MIX- Feria de Pinturas 10  15  20 y 30% de descuen (V)
+2016/03/15 09:16:37 system: Prom 409 (1067) - Cupon Desc TC y MC (V)
+2016/03/15 09:16:37 system: Prom 410 (1068) - Desc Martes (V)
+2016/03/15 09:16:37 system: Prom 411 (1069) - H 18 C S/I Pinturas T Cenco (V)
+2016/03/15 09:16:37 system: Prom 412 (1070) - Plan 12 (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: liberada mem parser promociones
+2016/03/15 09:16:37 system: finalizada carga secciones xml
+2016/03/15 09:16:37 system: recargar Parciales Pendientes
+2016/03/15 09:16:37 system: lectura archivos parciales pendientes = 20
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ELora - secuencia: 2064
+2016/03/15 09:16:37 system: Prom 413 (1071) - 18 c s/i t cenco (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ELora - secuencia: 2065
+2016/03/15 09:16:37 system: Prom 413 (1072) - 18 c s/i t cenco (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2066
+2016/03/15 09:16:37 system: Prom 415 (1075) - Prueba Anclaje 2 (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2067
+2016/03/15 09:16:37 system: Prom 415 (1076) - Prueba Anclaje 2 (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2068
+2016/03/15 09:16:37 system: Desactivar Prom 413 (1072) - 18 c s/i t cenco 
+2016/03/15 09:16:37 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2069
+2016/03/15 09:16:37 system: Desactivar Prom 411 (1069) - H 18 C S/I Pinturas T Cenco 
+2016/03/15 09:16:37 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2070
+2016/03/15 09:16:37 system: Desactivar Prom 410 (1068) - Desc Martes 
+2016/03/15 09:16:37 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2071
+2016/03/15 09:16:37 system: Desactivar Prom 409 (1067) - Cupon Desc TC y MC 
+2016/03/15 09:16:37 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2072
+2016/03/15 09:16:37 system: Desactivar Prom 408 (1066) - MIX- Feria de Pinturas 10  15  20 y 30% de descuen 
+2016/03/15 09:16:37 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2073
+2016/03/15 09:16:37 system: Desactivar Prom 407 (1065) - OI - COMBO PINTURAS LATEX + ENDUIDO 
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2074
+2016/03/15 09:16:37 system: Prom 415 (1077) - Prueba Anclaje 2 (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2075
+2016/03/15 09:16:37 system: Prom 415 (1078) - Prueba Anclaje 2 (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2076
+2016/03/15 09:16:37 system: Prom 415 (1079) - Prueba Anclaje 2 (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: Asandona - secuencia: 2077
+2016/03/15 09:16:37 system: Prom 415 (1080) - Prueba Anclaje 2 (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: Asandona - secuencia: 2078
+2016/03/15 09:16:37 system: Prom 416 (1081) - Anclaje (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: Asandona - secuencia: 2079
+2016/03/15 09:16:37 system: Prom 417 (1082) - Anclaje (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2080
+2016/03/15 09:16:37 system: Prom 417 (1083) - Anclaje (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2081
+2016/03/15 09:16:37 system: Prom 417 (1084) - Anclaje (V)
+2016/03/15 09:16:37 system: fin carga promociones
+2016/03/15 09:16:37 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2082
+2016/03/15 09:16:37 system: Prom 416 (1085) - Anclaje (V)
+2016/03/15 09:16:38 system: fin carga promociones
+2016/03/15 09:16:38 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2083
+2016/03/15 09:16:38 system: Prom 415 (1086) - Prueba Anclaje 2 (V)
+2016/03/15 09:16:38 system: fin carga promociones
+2016/03/15 09:16:38 system: Lectura Planes de Pago asociados a local = E106
+2016/03/15 09:16:38 system: arhivo de entrada = C:/PANGUI/XML/planpago.txt
+2016/03/15 09:16:38 system: Numero de planes asociados al local = 225
+2016/03/15 09:16:38 system: pedir memoria para bufferInReused
+2016/03/15 09:16:38 system: pedir memoria para bufferOutReused
+2016/03/15 09:16:38 system: sock_init()
+2016/03/15 09:16:38 system: try to create a new socket
+2016/03/15 09:16:38 system: created a new socket = 16
+2016/03/15 09:16:38 system: bind socket = 16
+2016/03/15 09:16:38 system: listen on socket = 16
+2016/03/15 09:16:38 system: while listen/accept
+2016/03/15 09:17:17 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="207" ttrans="0" fecha="150316091716" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:17:17 answer: 000330|0|E106|2|207|150316091716|&0002
+2016/03/15 09:17:31 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="207" ttrans="0" fecha="150316091729" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 09:17:31 answer: veces cumple cond prom 416 (Anclaje)= 30
+2016/03/15 09:17:31 answer: se cumplen condciones opcion: 1
+2016/03/15 09:17:31 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 30
+2016/03/15 09:17:31 answer: No se aplican descuentos en esta promocion 415 = 0
+2016/03/15 09:17:31 answer: 011210|0|E106|2|207|150316091729|&8|921545|640103006|1|1|416|30|36000|0|&10|416|0|6|Anclaje|14|||51|S|0|0|0|&13|2|27|P|NORM|1|360000|36000|36000|0|15446421|&13|2|36|P|NORM|2|360000|36000|36000|16686|15446421|&13|2|71|P|NORM|4|360000|36000|36000|29549|15446421|&13|2|83|P|NORM|5|360000|36000|36000|35640|15446421|&13|2|102|P|NORM|6|360000|36000|36000|41828|15446421|&13|2|124|P|NORM|8|360000|36000|36000|54400|15446421|&13|2|131|P|NORM|9|360000|36000|36000|60782|15446421|&13|2|149|P|NORM|10|360000|36000|36000|67230|15446421|&13|2|164|P|NORM|12|360000|36000|36000|84272|15446421|&13|2|178|P|NORM|15|360000|36000|36000|84823|15446421|&13|2|185|P|NORM|18|360000|36000|36000|127364|15446421|&13|2|192|P|NORM|20|360000|36000|36000|141199|15446421|&13|2|196|P|NORM|24|360000|36000|36000|173048|15446421|&13|2|203|P|NORM|25|360000|36000|36000|179658|15446421|&13|2|208|P|NORM|30|360000|36000|36000|221162|15446421|&13|2|219|P|NORM|36|360000|36000|36000|271674|15446421|&13|2|220|P|NORM|50|360000|36000|36000|398099|15446421|&13|2|225|P|NORM|60|360000|36000|36000|542538|15446421|&13|4|54|P|NORM|3|360000|36000|36000|0|15446421|&0002
+2016/03/15 09:17:49 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="207" ttrans="0" fecha="150316091747" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="3240" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="3240" plan="27"/></PS></T></O></pangui>
+2016/03/15 09:17:49 answer: veces cumple cond prom 416 (Anclaje)= 30
+2016/03/15 09:17:49 answer: 001080|0|E106|2|207|150316091747|&8|921545|640103006|1|1|416|30|36000|0|&10|416|0|6|Anclaje|14|||51|S|0|0|0|&0002
+2016/03/15 09:20:12 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="208" ttrans="0" fecha="150316092010" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:20:12 answer: 000330|0|E106|2|208|150316092010|&0002
+2016/03/15 09:20:15 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="208" ttrans="0" fecha="150316092013" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:20:15 answer: 000330|0|E106|2|208|150316092013|&0002
+2016/03/15 09:20:21 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="208" ttrans="0" fecha="150316092019" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 09:20:21 answer: 000330|0|E106|2|208|150316092019|&0002
+2016/03/15 09:20:34 req: <pangui><O oper="recarga_parcial" file="P0001090.XML" /></pangui>
+2016/03/15 09:20:34 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 09:20:34 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 09:20:34 system: detener parcial  - usuario: ea1396 - secuencia: 2084
+2016/03/15 09:20:34 system: Desactivar Prom 416 (1085) - Anclaje 
+2016/03/15 09:20:34 system: detener parcial  - usuario: ea1396 - secuencia: 2085
+2016/03/15 09:20:34 system: Desactivar Prom 417 (1084) - Anclaje 
+2016/03/15 09:20:34 req: <pangui><O oper="recarga_parcial" file="P0001089.XML" /></pangui>
+2016/03/15 09:20:34 error: cargar promocion, archivo parcial unificado no encontrado: C:/PANGUI/XML/P0001089.XML 
+2016/03/15 09:20:35 answer: 00031<pangui><O error="1"/></pangui>
+2016/03/15 09:20:35 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 09:20:35 error: cargar promocion, archivo parcial unificado no encontrado: C:/PANGUI/XML/P0001089.XML 
+2016/03/15 09:20:36 error: ControlerPromociones: recargaParcial retorna codigo: 1 
+2016/03/15 09:22:07 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="209" ttrans="0" fecha="150316092206" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:22:07 answer: 000330|0|E106|2|209|150316092206|&0002
+2016/03/15 09:22:09 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="209" ttrans="0" fecha="150316092208" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:22:09 answer: 000330|0|E106|2|209|150316092208|&0002
+2016/03/15 09:22:13 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="209" ttrans="0" fecha="150316092212" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 09:22:13 answer: 000330|0|E106|2|209|150316092212|&0002
+2016/03/15 09:42:48 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="210" ttrans="0" fecha="150316094247" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:42:48 answer: 000330|0|E106|2|210|150316094247|&0002
+2016/03/15 09:42:55 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="210" ttrans="0" fecha="150316094253" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:42:55 answer: 000330|0|E106|2|210|150316094253|&0002
+2016/03/15 09:42:57 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="210" ttrans="0" fecha="150316094255" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 09:42:57 answer: 000330|0|E106|2|210|150316094255|&0002
+2016/03/15 09:45:03 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 09:45:03 system: Config file: C:/PANGUI/promo.pro
+2016/03/15 09:45:03 system: server socket port = 7451
+2016/03/15 09:45:03 system: socket configured as non blocking
+2016/03/15 09:45:03 system: instanciar  ControlerPromociones
+2016/03/15 09:45:03 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 09:45:03 system: tamaño archivo unificado promociones = 68265
+2016/03/15 09:45:03 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 09:45:03 system: tamaño archivo unificado promociones = 68265
+2016/03/15 09:45:03 system: Recarga Promociones FULL - usuario: ea1396 - secuencia: 2063
+2016/03/15 09:45:03 warning: xml tipos promocion no encontrado
+2016/03/15 09:45:03 warning: xml tasas no encontrado
+2016/03/15 09:45:03 warning: xml tasas tpago no encontrado
+2016/03/15 09:45:03 warning: xml marca tarjetas no encontrado
+2016/03/15 09:45:03 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 09:45:03 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 09:45:03 warning: xml exclusion garantia no encontrado
+2016/03/15 09:45:03 warning: xml locales no encontrado
+2016/03/15 09:45:03 warning: xml tasas diferenciales no encontrado
+2016/03/15 09:45:03 warning: xml PRM_TIENDA no encontrado
+2016/03/15 09:45:03 system: carga datos promociones  = 11
+2016/03/15 09:45:03 system: liberada mem promociones ant
+2016/03/15 09:45:03 system: Prom 233 (629) - PRUEBA MUNDO EXPERTO (V)
+2016/03/15 09:45:03 system: Prom 273 (797) - Club Argenta (V)
+2016/03/15 09:45:03 system: Prom 364 (978) - Prueba motor linux (V)
+2016/03/15 09:45:03 system: Prom 308 (982) - CLARIN 365 (V)
+2016/03/15 09:45:03 system: Prom 365 (983) - Empleado (V)
+2016/03/15 09:45:03 system: Prom 407 (1065) - OI - COMBO PINTURAS LATEX + ENDUIDO (V)
+2016/03/15 09:45:03 system: Prom 408 (1066) - MIX- Feria de Pinturas 10  15  20 y 30% de descuen (V)
+2016/03/15 09:45:03 system: Prom 409 (1067) - Cupon Desc TC y MC (V)
+2016/03/15 09:45:03 system: Prom 410 (1068) - Desc Martes (V)
+2016/03/15 09:45:03 system: Prom 411 (1069) - H 18 C S/I Pinturas T Cenco (V)
+2016/03/15 09:45:03 system: Prom 412 (1070) - Plan 12 (V)
+2016/03/15 09:45:03 system: fin carga promociones
+2016/03/15 09:45:03 system: liberada mem parser promociones
+2016/03/15 09:45:03 system: finalizada carga secciones xml
+2016/03/15 09:45:03 system: recargar Parciales Pendientes
+2016/03/15 09:45:03 system: lectura archivos parciales pendientes = 22
+2016/03/15 09:45:03 system: Recarga activacion parcial  - usuario: ELora - secuencia: 2064
+2016/03/15 09:45:03 system: Prom 413 (1071) - 18 c s/i t cenco (V)
+2016/03/15 09:45:03 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ELora - secuencia: 2065
+2016/03/15 09:45:04 system: Prom 413 (1072) - 18 c s/i t cenco (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2066
+2016/03/15 09:45:04 system: Prom 415 (1075) - Prueba Anclaje 2 (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2067
+2016/03/15 09:45:04 system: Prom 415 (1076) - Prueba Anclaje 2 (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2068
+2016/03/15 09:45:04 system: Desactivar Prom 413 (1072) - 18 c s/i t cenco 
+2016/03/15 09:45:04 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2069
+2016/03/15 09:45:04 system: Desactivar Prom 411 (1069) - H 18 C S/I Pinturas T Cenco 
+2016/03/15 09:45:04 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2070
+2016/03/15 09:45:04 system: Desactivar Prom 410 (1068) - Desc Martes 
+2016/03/15 09:45:04 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2071
+2016/03/15 09:45:04 system: Desactivar Prom 409 (1067) - Cupon Desc TC y MC 
+2016/03/15 09:45:04 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2072
+2016/03/15 09:45:04 system: Desactivar Prom 408 (1066) - MIX- Feria de Pinturas 10  15  20 y 30% de descuen 
+2016/03/15 09:45:04 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2073
+2016/03/15 09:45:04 system: Desactivar Prom 407 (1065) - OI - COMBO PINTURAS LATEX + ENDUIDO 
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2074
+2016/03/15 09:45:04 system: Prom 415 (1077) - Prueba Anclaje 2 (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2075
+2016/03/15 09:45:04 system: Prom 415 (1078) - Prueba Anclaje 2 (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2076
+2016/03/15 09:45:04 system: Prom 415 (1079) - Prueba Anclaje 2 (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: Asandona - secuencia: 2077
+2016/03/15 09:45:04 system: Prom 415 (1080) - Prueba Anclaje 2 (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: Asandona - secuencia: 2078
+2016/03/15 09:45:04 system: Prom 416 (1081) - Anclaje (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: Asandona - secuencia: 2079
+2016/03/15 09:45:04 system: Prom 417 (1082) - Anclaje (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2080
+2016/03/15 09:45:04 system: Prom 417 (1083) - Anclaje (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2081
+2016/03/15 09:45:04 system: Prom 417 (1084) - Anclaje (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2082
+2016/03/15 09:45:04 system: Prom 416 (1085) - Anclaje (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2083
+2016/03/15 09:45:04 system: Prom 415 (1086) - Prueba Anclaje 2 (V)
+2016/03/15 09:45:04 system: fin carga promociones
+2016/03/15 09:45:04 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2084
+2016/03/15 09:45:04 system: Desactivar Prom 416 (1085) - Anclaje 
+2016/03/15 09:45:04 system: Recarga Detencion parcial  - usuario: ea1396 - secuencia: 2085
+2016/03/15 09:45:04 system: Desactivar Prom 417 (1084) - Anclaje 
+2016/03/15 09:45:04 system: Lectura Planes de Pago asociados a local = E106
+2016/03/15 09:45:04 system: arhivo de entrada = C:/PANGUI/XML/planpago.txt
+2016/03/15 09:45:05 system: Numero de planes asociados al local = 225
+2016/03/15 09:45:05 system: pedir memoria para bufferInReused
+2016/03/15 09:45:05 system: pedir memoria para bufferOutReused
+2016/03/15 09:45:05 system: sock_init()
+2016/03/15 09:45:05 system: try to create a new socket
+2016/03/15 09:45:05 system: created a new socket = 16
+2016/03/15 09:45:05 system: bind socket = 16
+2016/03/15 09:45:05 system: listen on socket = 16
+2016/03/15 09:45:05 system: while listen/accept
+2016/03/15 09:45:16 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="211" ttrans="0" fecha="150316094514" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:45:16 answer: 000330|0|E106|2|211|150316094514|&0002
+2016/03/15 09:45:38 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="211" ttrans="0" fecha="150316094537" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 09:45:38 answer: se cumplen condciones opcion: 1
+2016/03/15 09:45:39 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 30
+2016/03/15 09:45:39 answer: No se aplican descuentos en esta promocion 415 = 0
+2016/03/15 09:45:39 answer: 008980|0|E106|2|211|150316094537|&13|1|27|P|NORM|1|360000|0|0|0|15446421|&13|1|36|P|NORM|2|360000|0|0|18540|15446421|&13|1|54|P|NORM|3|360000|0|0|24876|15446421|&13|1|71|P|NORM|4|360000|0|0|32832|15446421|&13|1|83|P|NORM|5|360000|0|0|39600|15446421|&13|1|102|P|NORM|6|360000|0|0|46476|15446421|&13|1|124|P|NORM|8|360000|0|0|60444|15446421|&13|1|131|P|NORM|9|360000|0|0|67536|15446421|&13|1|149|P|NORM|10|360000|0|0|74700|15446421|&13|1|164|P|NORM|12|360000|0|0|93636|15446421|&13|1|178|P|NORM|15|360000|0|0|94248|15446421|&13|1|185|P|NORM|18|360000|0|0|141516|15446421|&13|1|192|P|NORM|20|360000|0|0|156888|15446421|&13|1|196|P|NORM|24|360000|0|0|192276|15446421|&13|1|203|P|NORM|25|360000|0|0|199620|15446421|&13|1|208|P|NORM|30|360000|0|0|245736|15446421|&13|1|219|P|NORM|36|360000|0|0|301860|15446421|&13|1|220|P|NORM|50|360000|0|0|442332|15446421|&13|1|225|P|NORM|60|360000|0|0|602820|15446421|&0002
+2016/03/15 09:45:47 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="211" ttrans="0" fecha="150316094546" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="27"/></PS></T></O></pangui>
+2016/03/15 09:45:47 answer: se cumplen condciones opcion: 1
+2016/03/15 09:45:47 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 30
+2016/03/15 09:45:47 answer: No se aplican descuentos en esta promocion 415 = 0
+2016/03/15 09:45:47 answer: 000330|0|E106|2|211|150316094546|&0002
+2016/03/15 09:48:26 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="212" ttrans="0" fecha="150316094825" operador="90406468" total="482.83" canal="6"><LS><L  id="6" atribs="779116100267|1|N|PCE|174.21|0|580405011|E198      |0|||||000000001231510099||0|||||||0|0|0|0|40|MTR|0000000001345806|0|"/><L  id="9" atribs="779116100013|1|N|PCE|13.3|0|580405001|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323114|0|"/><L  id="12" atribs="779116100037|1|N|PCE|18.43|0|580405007|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323120|0|"/><L  id="15" atribs="779116100061|1|N|PCE|236.9|0|580405014|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323183|0|"/><L  id="18" atribs="779116100070|1|N|PCE|27.86|0|580405008|000000E198|0|||||000000001131010163||0|||||||60|0|0|0|0|000|0000000001419785|0|"/><L  id="21" atribs="779116100062|1|N|PCE|12.12|0|580405005|000000E198|0|||||000000001231510099||0|||||||0|0|0|0|0|000|0000000001323128|0|"/><L  id="24" atribs="208000015673|1|N|PCE|0.01|0|750101001|00000000DF|0|||||000000000000099999||0|||||||0|0|0|0|0|000|0000000000089691|0|"/></LS><C  cliente="20368724344" tcliente="RI" tdoc="80" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:48:26 answer: 000330|0|E106|2|212|150316094825|&0002
+2016/03/15 09:48:29 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="212" ttrans="0" fecha="150316094828" operador="90406468" total="482.83" canal="6"><LS><L  id="6" atribs="779116100267|1|N|PCE|174.21|0|580405011|E198      |0|||||000000001231510099||0|||||||0|0|0|0|40|MTR|0000000001345806|0|"/><L  id="9" atribs="779116100013|1|N|PCE|13.3|0|580405001|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323114|0|"/><L  id="12" atribs="779116100037|1|N|PCE|18.43|0|580405007|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323120|0|"/><L  id="15" atribs="779116100061|1|N|PCE|236.9|0|580405014|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323183|0|"/><L  id="18" atribs="779116100070|1|N|PCE|27.86|0|580405008|000000E198|0|||||000000001131010163||0|||||||60|0|0|0|0|000|0000000001419785|0|"/><L  id="21" atribs="779116100062|1|N|PCE|12.12|0|580405005|000000E198|0|||||000000001231510099||0|||||||0|0|0|0|0|000|0000000001323128|0|"/><L  id="24" atribs="208000015673|1|N|PCE|0.01|0|750101001|00000000DF|0|||||000000000000099999||0|||||||0|0|0|0|0|000|0000000000089691|0|"/></LS><C  cliente="20368724344" tcliente="RI" tdoc="80" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:48:30 answer: 000330|0|E106|2|212|150316094828|&0002
+2016/03/15 09:48:38 req: <pangui><O oper="recarga_parcial" file="P0001091.XML" /></pangui>
+2016/03/15 09:48:39 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 09:48:39 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 09:48:39 system: Recarga parcial  - usuario: ea1396 - secuencia: 2086
+2016/03/15 09:48:39 system: Prom 415 (1087) - Prueba Anclaje 2 (V)
+2016/03/15 09:48:39 system: fin carga promociones
+2016/03/15 09:48:44 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="212" ttrans="0" fecha="150316094842" operador="90406468" total="482.83" canal="6"><LS><L  id="6" atribs="779116100267|1|N|PCE|174.21|0|580405011|E198      |0|||||000000001231510099||0|||||||0|0|0|0|40|MTR|0000000001345806|0|"/><L  id="9" atribs="779116100013|1|N|PCE|13.3|0|580405001|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323114|0|"/><L  id="12" atribs="779116100037|1|N|PCE|18.43|0|580405007|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323120|0|"/><L  id="15" atribs="779116100061|1|N|PCE|236.9|0|580405014|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323183|0|"/><L  id="18" atribs="779116100070|1|N|PCE|27.86|0|580405008|000000E198|0|||||000000001131010163||0|||||||60|0|0|0|0|000|0000000001419785|0|"/><L  id="21" atribs="779116100062|1|N|PCE|12.12|0|580405005|000000E198|0|||||000000001231510099||0|||||||0|0|0|0|0|000|0000000001323128|0|"/><L  id="24" atribs="208000015673|1|N|PCE|0.01|0|750101001|00000000DF|0|||||000000000000099999||0|||||||0|0|0|0|0|000|0000000000089691|0|"/></LS><C  cliente="20368724344" tcliente="RI" tdoc="80" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:48:44 answer: 000330|0|E106|2|212|150316094842|&0002
+2016/03/15 09:49:14 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="212" ttrans="0" fecha="150316094913" operador="90406468" total="482.83" canal="6"><LS><L  id="6" atribs="779116100267|1|N|PCE|174.21|0|580405011|E198      |0|||||000000001231510099||0|||||||0|0|0|0|40|MTR|0000000001345806|0|"/><L  id="9" atribs="779116100013|1|N|PCE|13.3|0|580405001|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323114|0|"/><L  id="12" atribs="779116100037|1|N|PCE|18.43|0|580405007|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323120|0|"/><L  id="15" atribs="779116100061|1|N|PCE|236.9|0|580405014|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323183|0|"/><L  id="18" atribs="779116100070|1|N|PCE|27.86|0|580405008|000000E198|0|||||000000001131010163||0|||||||60|0|0|0|0|000|0000000001419785|0|"/><L  id="21" atribs="779116100062|1|N|PCE|12.12|0|580405005|000000E198|0|||||000000001231510099||0|||||||0|0|0|0|0|000|0000000001323128|0|"/><L  id="24" atribs="208000015673|1|N|PCE|0.01|0|750101001|00000000DF|0|||||000000000000099999||0|||||||0|0|0|0|0|000|0000000000089691|0|"/></LS><C  cliente="20368724344" tcliente="RI" tdoc="80" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:49:14 answer: 000330|0|E106|2|212|150316094913|&0002
+2016/03/15 09:49:56 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="212" ttrans="0" fecha="150316094955" operador="90406468" total="482.83" canal="6"><LS><L  id="6" atribs="779116100267|1|N|PCE|174.21|0|580405011|E198      |0|||||000000001231510099||0|||||||0|0|0|0|40|MTR|0000000001345806|0|"/><L  id="9" atribs="779116100013|1|N|PCE|13.3|0|580405001|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323114|0|"/><L  id="12" atribs="779116100037|1|N|PCE|18.43|0|580405007|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323120|0|"/><L  id="15" atribs="779116100061|1|N|PCE|236.9|0|580405014|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323183|0|"/><L  id="18" atribs="779116100070|1|N|PCE|27.86|0|580405008|000000E198|0|||||000000001131010163||0|||||||60|0|0|0|0|000|0000000001419785|0|"/><L  id="21" atribs="779116100062|1|N|PCE|12.12|0|580405005|000000E198|0|||||000000001231510099||0|||||||0|0|0|0|0|000|0000000001323128|0|"/><L  id="24" atribs="208000015673|1|N|PCE|0.01|0|750101001|00000000DF|0|||||000000000000099999||0|||||||0|0|0|0|0|000|0000000000089691|0|"/></LS><C  cliente="20368724344" tcliente="RI" tdoc="80" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:49:56 answer: 000330|0|E106|2|212|150316094955|&0002
+2016/03/15 09:50:30 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="212" ttrans="0" fecha="150316095028" operador="90406468" total="482.83" canal="6"><LS><L  id="6" atribs="779116100267|1|N|PCE|174.21|0|580405011|E198      |0|||||000000001231510099||0|||||||0|0|0|0|40|MTR|0000000001345806|0|"/><L  id="9" atribs="779116100013|1|N|PCE|13.3|0|580405001|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323114|0|"/><L  id="12" atribs="779116100037|1|N|PCE|18.43|0|580405007|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323120|0|"/><L  id="15" atribs="779116100061|1|N|PCE|236.9|0|580405014|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323183|0|"/><L  id="18" atribs="779116100070|1|N|PCE|27.86|0|580405008|000000E198|0|||||000000001131010163||0|||||||60|0|0|0|0|000|0000000001419785|0|"/><L  id="21" atribs="779116100062|1|N|PCE|12.12|0|580405005|000000E198|0|||||000000001231510099||0|||||||0|0|0|0|0|000|0000000001323128|0|"/><L  id="24" atribs="208000015673|1|N|PCE|0.01|0|750101001|00000000DF|0|||||000000000000099999||0|||||||0|0|0|0|0|000|0000000000089691|0|"/></LS><C  cliente="20368724344" tcliente="RI" tdoc="80" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:50:30 answer: 000330|0|E106|2|212|150316095028|&0002
+2016/03/15 09:55:54 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="212" ttrans="0" fecha="150316095553" operador="90406468" total="482.83" canal="6"><LS><L  id="6" atribs="779116100267|1|N|PCE|174.21|0|580405011|E198      |0|||||000000001231510099||0|||||||0|0|0|0|40|MTR|0000000001345806|0|"/><L  id="9" atribs="779116100013|1|N|PCE|13.3|0|580405001|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323114|0|"/><L  id="12" atribs="779116100037|1|N|PCE|18.43|0|580405007|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323120|0|"/><L  id="15" atribs="779116100061|1|N|PCE|236.9|0|580405014|E198      |0|||||000000001231510099||0|||||||0|0|0|0|0|   |0000000001323183|0|"/><L  id="18" atribs="779116100070|1|N|PCE|27.86|0|580405008|000000E198|0|||||000000001131010163||0|||||||60|0|0|0|0|000|0000000001419785|0|"/><L  id="21" atribs="779116100062|1|N|PCE|12.12|0|580405005|000000E198|0|||||000000001231510099||0|||||||0|0|0|0|0|000|0000000001323128|0|"/><L  id="24" atribs="208000015673|1|N|PCE|0.01|0|750101001|00000000DF|0|||||000000000000099999||0|||||||0|0|0|0|0|000|0000000000089691|0|"/></LS><C  cliente="20368724344" tcliente="RI" tdoc="80" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 09:55:54 answer: 000330|0|E106|2|212|150316095553|&0002
+2016/03/15 10:29:37 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="213" ttrans="0" fecha="150316102935" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 10:29:37 answer: 000330|0|E106|2|213|150316102935|&0002
+2016/03/15 10:29:43 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="213" ttrans="0" fecha="150316102941" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 10:29:43 answer: 000330|0|E106|2|213|150316102941|&0002
+2016/03/15 10:29:46 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="213" ttrans="0" fecha="150316102944" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 10:29:46 answer: 000330|0|E106|2|213|150316102944|&0002
+2016/03/15 10:35:41 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="214" ttrans="0" fecha="150316103540" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 10:35:41 answer: 000330|0|E106|2|214|150316103540|&0002
+2016/03/15 10:35:44 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="214" ttrans="0" fecha="150316103542" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 10:35:44 answer: 000330|0|E106|2|214|150316103542|&0002
+2016/03/15 10:35:50 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="214" ttrans="0" fecha="150316103549" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="10" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 10:35:50 answer: 000330|0|E106|2|214|150316103549|&0002
+2016/03/15 10:42:28 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="215" ttrans="0" fecha="150316104227" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 10:42:28 answer: 000330|0|E106|2|215|150316104227|&0002
+2016/03/15 10:42:31 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="215" ttrans="0" fecha="150316104230" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 10:42:31 answer: 000330|0|E106|2|215|150316104230|&0002
+2016/03/15 10:42:37 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="215" ttrans="0" fecha="150316104235" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 10:42:37 answer: 000330|0|E106|2|215|150316104235|&0002
+2016/03/15 10:45:24 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="216" ttrans="0" fecha="150316104522" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 10:45:24 answer: 000330|0|E106|2|216|150316104522|&0002
+2016/03/15 10:45:40 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="216" ttrans="0" fecha="150316104538" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 10:45:40 answer: se cumplen condciones opcion: 1
+2016/03/15 10:45:40 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 30
+2016/03/15 10:45:40 answer: No se aplican descuentos en esta promocion 415 = 0
+2016/03/15 10:45:40 answer: 008980|0|E106|2|216|150316104538|&13|1|27|P|NORM|1|360000|0|0|0|15446421|&13|1|36|P|NORM|2|360000|0|0|18540|15446421|&13|1|54|P|NORM|3|360000|0|0|24876|15446421|&13|1|71|P|NORM|4|360000|0|0|32832|15446421|&13|1|83|P|NORM|5|360000|0|0|39600|15446421|&13|1|102|P|NORM|6|360000|0|0|46476|15446421|&13|1|124|P|NORM|8|360000|0|0|60444|15446421|&13|1|131|P|NORM|9|360000|0|0|67536|15446421|&13|1|149|P|NORM|10|360000|0|0|74700|15446421|&13|1|164|P|NORM|12|360000|0|0|93636|15446421|&13|1|178|P|NORM|15|360000|0|0|94248|15446421|&13|1|185|P|NORM|18|360000|0|0|141516|15446421|&13|1|192|P|NORM|20|360000|0|0|156888|15446421|&13|1|196|P|NORM|24|360000|0|0|192276|15446421|&13|1|203|P|NORM|25|360000|0|0|199620|15446421|&13|1|208|P|NORM|30|360000|0|0|245736|15446421|&13|1|219|P|NORM|36|360000|0|0|301860|15446421|&13|1|220|P|NORM|50|360000|0|0|442332|15446421|&13|1|225|P|NORM|60|360000|0|0|602820|15446421|&0002
+2016/03/15 10:46:30 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="216" ttrans="0" fecha="150316104629" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 10:46:30 answer: 000330|0|E106|2|216|150316104629|&0002
+2016/03/15 11:06:04 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="217" ttrans="0" fecha="150316110603" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:06:04 answer: 000330|0|E106|2|217|150316110603|&0002
+2016/03/15 11:06:07 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="217" ttrans="0" fecha="150316110605" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:06:07 answer: 000330|0|E106|2|217|150316110605|&0002
+2016/03/15 11:06:12 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="217" ttrans="0" fecha="150316110610" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:06:12 answer: 000330|0|E106|2|217|150316110610|&0002
+2016/03/15 11:10:30 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="218" ttrans="0" fecha="150316111028" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:10:30 answer: 000330|0|E106|2|218|150316111028|&0002
+2016/03/15 11:10:36 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="218" ttrans="0" fecha="150316111034" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:10:36 answer: 000330|0|E106|2|218|150316111034|&0002
+2016/03/15 11:10:46 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="218" ttrans="0" fecha="150316111045" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:10:46 answer: 000330|0|E106|2|218|150316111045|&0002
+2016/03/15 11:15:56 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="219" ttrans="0" fecha="150316111555" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:15:56 answer: 000330|0|E106|2|219|150316111555|&0002
+2016/03/15 11:15:58 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="219" ttrans="0" fecha="150316111557" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:15:58 answer: 000330|0|E106|2|219|150316111557|&0002
+2016/03/15 11:16:00 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="219" ttrans="0" fecha="150316111559" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:16:00 answer: 000330|0|E106|2|219|150316111559|&0002
+2016/03/15 11:19:31 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="220" ttrans="0" fecha="150316111929" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:19:31 answer: 000330|0|E106|2|220|150316111929|&0002
+2016/03/15 11:19:34 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="220" ttrans="0" fecha="150316111932" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:19:34 answer: 000330|0|E106|2|220|150316111932|&0002
+2016/03/15 11:19:38 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="220" ttrans="0" fecha="150316111936" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:19:38 answer: 000330|0|E106|2|220|150316111936|&0002
+2016/03/15 11:38:57 req: <pangui><O oper="recarga_parcial" file="P0001092.XML" /></pangui>
+2016/03/15 11:38:57 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 11:38:57 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 11:38:57 system: Recarga parcial  - usuario: ea1396 - secuencia: 2087
+2016/03/15 11:38:57 system: Prom 415 (1088) - Prueba Anclaje 2 (V)
+2016/03/15 11:38:57 system: fin carga promociones
+2016/03/15 11:41:39 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="221" ttrans="0" fecha="150316114138" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:41:39 answer: 000330|0|E106|2|221|150316114138|&0002
+2016/03/15 11:41:55 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="221" ttrans="0" fecha="150316114153" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:41:55 answer: se cumplen condciones opcion: 1
+2016/03/15 11:41:55 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 30
+2016/03/15 11:41:55 answer: veces cumple cond prom 410 (Desc Martes)= 30
+2016/03/15 11:41:55 answer: 010930|0|E106|2|221|150316114153|&8|921545|640103006|1|1|415|30|360000|0|&10|415|0|6|Prueba Anclaje 2|14|||51|S|0|0|0|&13|2|27|P|NORM|1|360000|360000|360000|0|15446421|&13|4|36|P|NORM|2|360000|360000|360000|0|15446421|&13|4|54|P|NORM|3|360000|360000|360000|0|15446421|&13|4|71|P|NORM|4|360000|360000|360000|0|15446421|&13|4|83|P|NORM|5|360000|360000|360000|0|15446421|&13|4|102|P|NORM|6|360000|360000|360000|0|15446421|&13|4|124|P|NORM|8|360000|360000|360000|0|15446421|&13|4|131|P|NORM|9|360000|360000|360000|0|15446421|&13|4|149|P|NORM|10|360000|360000|360000|0|15446421|&13|4|164|P|NORM|12|360000|360000|360000|0|15446421|&13|4|178|P|NORM|15|360000|360000|360000|0|15446421|&13|4|185|P|NORM|18|360000|360000|360000|0|15446421|&13|4|192|P|NORM|20|360000|360000|360000|0|15446421|&13|4|196|P|NORM|24|360000|360000|360000|0|15446421|&13|4|203|P|NORM|25|360000|360000|360000|0|15446421|&13|4|208|P|NORM|30|360000|360000|360000|0|15446421|&13|4|219|P|NORM|36|360000|360000|360000|0|15446421|&13|4|220|P|NORM|50|360000|360000|360000|0|15446421|&13|4|225|P|NORM|60|360000|360000|360000|0|15446421|&0002
+2016/03/15 11:42:17 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="221" ttrans="0" fecha="150316114215" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="0" debito="N" bin="559198" ncuotas="2" banco="198" precargo="0" trtarj="C" mcargo="0" plan="36"/></PS></T></O></pangui>
+2016/03/15 11:42:17 answer: se cumplen condciones opcion: 1
+2016/03/15 11:42:17 answer: veces cumple cond prom 408 (MIX- Feria de Pinturas 10  15  20 y 30% de descuen)= 30
+2016/03/15 11:42:17 answer: veces cumple cond prom 410 (Desc Martes)= 30
+2016/03/15 11:42:17 answer: No se aplican descuentos en esta promocion 410 = 0
+2016/03/15 11:42:17 answer: 001190|0|E106|2|221|150316114215|&8|921545|640103006|1|1|408|30|36000|0|&10|408|0|6|MIX- Feria de Pintu|258||||S|0|0|0|&0002
+2016/03/15 11:42:41 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="221" ttrans="0" fecha="150316114240" operador="90406468" total="3240" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="0" debito="N" bin="559198" ncuotas="2" banco="198" precargo="0" trtarj="C" mcargo="0" plan="36"/><P  id="9" tpago="11" monto="3240" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:42:41 answer: se cumplen condciones opcion: 1
+2016/03/15 11:42:41 answer: veces cumple cond prom 408 (MIX- Feria de Pinturas 10  15  20 y 30% de descuen)= 30
+2016/03/15 11:42:41 answer: veces cumple cond prom 410 (Desc Martes)= 30
+2016/03/15 11:42:41 answer: No se aplican descuentos en esta promocion 410 = 0
+2016/03/15 11:42:41 answer: 001190|0|E106|2|221|150316114240|&8|921545|640103006|1|1|408|30|36000|0|&10|408|0|6|MIX- Feria de Pintu|258||||S|0|0|0|&0002
+2016/03/15 11:48:06 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="222" ttrans="0" fecha="150316114804" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:48:06 answer: 000330|0|E106|2|222|150316114804|&0002
+2016/03/15 11:48:11 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="222" ttrans="0" fecha="150316114809" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:48:11 answer: 000330|0|E106|2|222|150316114809|&0002
+2016/03/15 11:48:14 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="222" ttrans="0" fecha="150316114812" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="6" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:48:14 answer: 000330|0|E106|2|222|150316114812|&0002
+2016/03/15 11:48:18 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="222" ttrans="0" fecha="150316114816" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="6" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="8" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:48:18 answer: 000330|0|E106|2|222|150316114816|&0002
+2016/03/15 11:49:00 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="223" ttrans="0" fecha="150316114858" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:49:00 answer: 000330|0|E106|2|223|150316114858|&0002
+2016/03/15 11:49:27 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="223" ttrans="0" fecha="150316114925" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:49:27 answer: 000330|0|E106|2|223|150316114925|&0002
+2016/03/15 11:58:47 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="224" ttrans="0" fecha="150316115846" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 11:58:47 answer: 000330|0|E106|2|224|150316115846|&0002
+2016/03/15 11:59:20 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="224" ttrans="0" fecha="150316115918" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:59:20 answer: se cumplen condciones opcion: 1
+2016/03/15 11:59:20 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 30
+2016/03/15 11:59:20 answer: veces cumple cond prom 410 (Desc Martes)= 30
+2016/03/15 11:59:20 answer: 010930|0|E106|2|224|150316115918|&8|921545|640103006|1|1|415|30|360000|0|&10|415|0|6|Prueba Anclaje 2|14|||51|S|0|0|0|&13|2|27|P|NORM|1|360000|360000|360000|0|15446421|&13|4|36|P|NORM|2|360000|360000|360000|0|15446421|&13|4|54|P|NORM|3|360000|360000|360000|0|15446421|&13|4|71|P|NORM|4|360000|360000|360000|0|15446421|&13|4|83|P|NORM|5|360000|360000|360000|0|15446421|&13|4|102|P|NORM|6|360000|360000|360000|0|15446421|&13|4|124|P|NORM|8|360000|360000|360000|0|15446421|&13|4|131|P|NORM|9|360000|360000|360000|0|15446421|&13|4|149|P|NORM|10|360000|360000|360000|0|15446421|&13|4|164|P|NORM|12|360000|360000|360000|0|15446421|&13|4|178|P|NORM|15|360000|360000|360000|0|15446421|&13|4|185|P|NORM|18|360000|360000|360000|0|15446421|&13|4|192|P|NORM|20|360000|360000|360000|0|15446421|&13|4|196|P|NORM|24|360000|360000|360000|0|15446421|&13|4|203|P|NORM|25|360000|360000|360000|0|15446421|&13|4|208|P|NORM|30|360000|360000|360000|0|15446421|&13|4|219|P|NORM|36|360000|360000|360000|0|15446421|&13|4|220|P|NORM|50|360000|360000|360000|0|15446421|&13|4|225|P|NORM|60|360000|360000|360000|0|15446421|&0002
+2016/03/15 11:59:43 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="224" ttrans="0" fecha="150316115941" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="0" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="0" plan="27"/></PS></T></O></pangui>
+2016/03/15 11:59:43 answer: se cumplen condciones opcion: 1
+2016/03/15 11:59:43 answer: veces cumple cond prom 408 (MIX- Feria de Pinturas 10  15  20 y 30% de descuen)= 30
+2016/03/15 11:59:43 answer: veces cumple cond prom 410 (Desc Martes)= 30
+2016/03/15 11:59:43 answer: No se aplican descuentos en esta promocion 410 = 0
+2016/03/15 11:59:43 answer: 001190|0|E106|2|224|150316115941|&8|921545|640103006|1|1|408|30|36000|0|&10|408|0|6|MIX- Feria de Pintu|258||||S|0|0|0|&0002
+2016/03/15 11:59:50 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="224" ttrans="0" fecha="150316115948" operador="90406468" total="3240" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="0" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="0" plan="27"/><P  id="9" tpago="11" monto="3240" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 11:59:50 answer: se cumplen condciones opcion: 1
+2016/03/15 11:59:50 answer: veces cumple cond prom 408 (MIX- Feria de Pinturas 10  15  20 y 30% de descuen)= 30
+2016/03/15 11:59:50 answer: veces cumple cond prom 410 (Desc Martes)= 30
+2016/03/15 11:59:50 answer: No se aplican descuentos en esta promocion 410 = 0
+2016/03/15 11:59:50 answer: 001190|0|E106|2|224|150316115948|&8|921545|640103006|1|1|408|30|36000|0|&10|408|0|6|MIX- Feria de Pintu|258||||S|0|0|0|&0002
+2016/03/15 12:05:01 req: <pangui><O oper="recarga_parcial" file="P0001093.XML" /></pangui>
+2016/03/15 12:05:01 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 12:05:01 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:05:01 system: Recarga parcial  - usuario: ea1396 - secuencia: 2088
+2016/03/15 12:05:01 system: Prom 415 (1089) - Prueba Anclaje 2 (V)
+2016/03/15 12:05:01 system: fin carga promociones
+2016/03/15 12:05:02 req: <pangui><O oper="recarga_parcial" file="P0001094.XML" /></pangui>
+2016/03/15 12:05:02 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 12:05:02 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:05:02 system: Recarga parcial  - usuario: ea1396 - secuencia: 2089
+2016/03/15 12:05:02 system: Prom 418 (1090) - Anclaje (V)
+2016/03/15 12:05:02 system: fin carga promociones
+2016/03/15 12:06:43 req: <pangui><O oper="recargar_xmls"/></pangui>
+2016/03/15 12:06:43 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 12:06:44 system: tamaño archivo unificado promociones = 52301
+2016/03/15 12:06:44 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 12:06:44 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:06:44 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 12:06:44 system: tamaño archivo unificado promociones = 52301
+2016/03/15 12:06:44 system: borrar Parciales Pendientes = 26
+2016/03/15 12:06:44 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 12:06:44 system: tamaño archivo unificado promociones = 52301
+2016/03/15 12:06:44 system: Recarga Promociones FULL - usuario: ea1396 - secuencia: 2090
+2016/03/15 12:06:44 warning: xml tipos promocion no encontrado
+2016/03/15 12:06:45 warning: xml tasas no encontrado
+2016/03/15 12:06:45 warning: xml tasas tpago no encontrado
+2016/03/15 12:06:45 warning: xml marca tarjetas no encontrado
+2016/03/15 12:06:45 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 12:06:45 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 12:06:45 warning: xml exclusion garantia no encontrado
+2016/03/15 12:06:45 warning: xml locales no encontrado
+2016/03/15 12:06:45 warning: xml tasas diferenciales no encontrado
+2016/03/15 12:06:45 warning: xml PRM_TIENDA no encontrado
+2016/03/15 12:06:45 system: carga datos promociones  = 7
+2016/03/15 12:06:45 system: liberada mem promociones ant
+2016/03/15 12:06:45 system: Prom 233 (629) - PRUEBA MUNDO EXPERTO (V)
+2016/03/15 12:06:45 system: Prom 273 (797) - Club Argenta (V)
+2016/03/15 12:06:45 system: Prom 364 (978) - Prueba motor linux (V)
+2016/03/15 12:06:45 system: Prom 308 (982) - CLARIN 365 (V)
+2016/03/15 12:06:45 system: Prom 365 (983) - Empleado (V)
+2016/03/15 12:06:45 system: Prom 415 (1089) - Prueba Anclaje 2 (V)
+2016/03/15 12:06:45 system: Prom 418 (1090) - Anclaje (V)
+2016/03/15 12:06:45 system: fin carga promociones
+2016/03/15 12:06:45 system: liberada mem parser promociones
+2016/03/15 12:06:45 system: finalizada carga secciones xml
+2016/03/15 12:06:45 system: Lectura Planes de Pago asociados a local = E106
+2016/03/15 12:06:45 system: arhivo de entrada = C:/PANGUI/XML/planpago.txt
+2016/03/15 12:06:45 system: Numero de planes asociados al local = 0
+2016/03/15 12:08:54 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:08:54 system: Config file: C:/PANGUI/promo.pro
+2016/03/15 12:08:54 system: server socket port = 7451
+2016/03/15 12:08:54 system: socket configured as non blocking
+2016/03/15 12:08:54 system: instanciar  ControlerPromociones
+2016/03/15 12:08:54 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 12:08:54 system: tamaño archivo unificado promociones = 52301
+2016/03/15 12:08:54 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 12:08:54 system: tamaño archivo unificado promociones = 52301
+2016/03/15 12:08:54 system: Recarga Promociones FULL - usuario: ea1396 - secuencia: 2090
+2016/03/15 12:08:54 warning: xml tipos promocion no encontrado
+2016/03/15 12:08:54 warning: xml tasas no encontrado
+2016/03/15 12:08:54 warning: xml tasas tpago no encontrado
+2016/03/15 12:08:54 warning: xml marca tarjetas no encontrado
+2016/03/15 12:08:54 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 12:08:54 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 12:08:55 warning: xml exclusion garantia no encontrado
+2016/03/15 12:08:55 warning: xml locales no encontrado
+2016/03/15 12:08:55 warning: xml tasas diferenciales no encontrado
+2016/03/15 12:08:55 warning: xml PRM_TIENDA no encontrado
+2016/03/15 12:08:55 system: carga datos promociones  = 7
+2016/03/15 12:08:55 system: liberada mem promociones ant
+2016/03/15 12:08:55 system: Prom 233 (629) - PRUEBA MUNDO EXPERTO (V)
+2016/03/15 12:08:55 system: Prom 273 (797) - Club Argenta (V)
+2016/03/15 12:08:55 system: Prom 364 (978) - Prueba motor linux (V)
+2016/03/15 12:08:55 system: Prom 308 (982) - CLARIN 365 (V)
+2016/03/15 12:08:55 system: Prom 365 (983) - Empleado (V)
+2016/03/15 12:08:55 system: Prom 415 (1089) - Prueba Anclaje 2 (V)
+2016/03/15 12:08:55 system: Prom 418 (1090) - Anclaje (V)
+2016/03/15 12:08:55 system: fin carga promociones
+2016/03/15 12:08:55 system: liberada mem parser promociones
+2016/03/15 12:08:55 system: finalizada carga secciones xml
+2016/03/15 12:08:55 system: recargar Parciales Pendientes
+2016/03/15 12:08:55 system: Lectura Planes de Pago asociados a local = E106
+2016/03/15 12:08:55 system: arhivo de entrada = C:/PANGUI/XML/planpago.txt
+2016/03/15 12:08:56 system: Numero de planes asociados al local = 225
+2016/03/15 12:08:56 system: pedir memoria para bufferInReused
+2016/03/15 12:08:56 system: pedir memoria para bufferOutReused
+2016/03/15 12:08:56 system: sock_init()
+2016/03/15 12:08:56 system: try to create a new socket
+2016/03/15 12:08:56 system: created a new socket = 28
+2016/03/15 12:08:56 system: bind socket = 28
+2016/03/15 12:08:56 system: listen on socket = 28
+2016/03/15 12:08:56 system: while listen/accept
+2016/03/15 12:09:09 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:09:09 system: Config file: C:/PANGUI/promo.pro
+2016/03/15 12:09:09 system: server socket port = 7451
+2016/03/15 12:09:09 system: socket configured as non blocking
+2016/03/15 12:09:09 system: instanciar  ControlerPromociones
+2016/03/15 12:09:09 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 12:09:09 system: tamaño archivo unificado promociones = 52301
+2016/03/15 12:09:09 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 12:09:09 system: tamaño archivo unificado promociones = 52301
+2016/03/15 12:09:10 system: Recarga Promociones FULL - usuario: ea1396 - secuencia: 2090
+2016/03/15 12:09:10 warning: xml tipos promocion no encontrado
+2016/03/15 12:09:10 warning: xml tasas no encontrado
+2016/03/15 12:09:10 warning: xml tasas tpago no encontrado
+2016/03/15 12:09:10 warning: xml marca tarjetas no encontrado
+2016/03/15 12:09:10 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 12:09:10 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 12:09:10 warning: xml exclusion garantia no encontrado
+2016/03/15 12:09:10 warning: xml locales no encontrado
+2016/03/15 12:09:10 warning: xml tasas diferenciales no encontrado
+2016/03/15 12:09:10 warning: xml PRM_TIENDA no encontrado
+2016/03/15 12:09:10 system: carga datos promociones  = 7
+2016/03/15 12:09:10 system: liberada mem promociones ant
+2016/03/15 12:09:10 system: Prom 233 (629) - PRUEBA MUNDO EXPERTO (V)
+2016/03/15 12:09:10 system: Prom 273 (797) - Club Argenta (V)
+2016/03/15 12:09:10 system: Prom 364 (978) - Prueba motor linux (V)
+2016/03/15 12:09:10 system: Prom 308 (982) - CLARIN 365 (V)
+2016/03/15 12:09:10 system: Prom 365 (983) - Empleado (V)
+2016/03/15 12:09:10 system: Prom 415 (1089) - Prueba Anclaje 2 (V)
+2016/03/15 12:09:10 system: Prom 418 (1090) - Anclaje (V)
+2016/03/15 12:09:10 system: fin carga promociones
+2016/03/15 12:09:10 system: liberada mem parser promociones
+2016/03/15 12:09:10 system: finalizada carga secciones xml
+2016/03/15 12:09:10 system: recargar Parciales Pendientes
+2016/03/15 12:09:10 system: Lectura Planes de Pago asociados a local = E106
+2016/03/15 12:09:10 system: arhivo de entrada = C:/PANGUI/XML/planpago.txt
+2016/03/15 12:09:10 system: Numero de planes asociados al local = 225
+2016/03/15 12:09:11 system: pedir memoria para bufferInReused
+2016/03/15 12:09:11 system: pedir memoria para bufferOutReused
+2016/03/15 12:09:11 system: sock_init()
+2016/03/15 12:09:11 system: try to create a new socket
+2016/03/15 12:09:11 system: created a new socket = 29
+2016/03/15 12:09:11 system: bind socket = 29
+2016/03/15 12:09:11 system: listen on socket = 29
+2016/03/15 12:09:11 system: while listen/accept
+2016/03/15 12:10:43 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="225" ttrans="0" fecha="150316121042" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 12:10:44 answer: 000330|0|E106|2|225|150316121042|&0002
+2016/03/15 12:10:58 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="225" ttrans="0" fecha="150316121056" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:10:58 answer: se cumplen condciones opcion: 1
+2016/03/15 12:10:58 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 30
+2016/03/15 12:10:58 answer: 010930|0|E106|2|225|150316121056|&8|921545|640103006|1|1|415|30|360000|0|&10|415|0|6|Prueba Anclaje 2|14|||51|S|0|0|0|&13|2|27|P|NORM|1|360000|360000|360000|0|15446421|&13|4|36|P|NORM|2|360000|360000|360000|0|15446421|&13|4|54|P|NORM|3|360000|360000|360000|0|15446421|&13|4|71|P|NORM|4|360000|360000|360000|0|15446421|&13|4|83|P|NORM|5|360000|360000|360000|0|15446421|&13|4|102|P|NORM|6|360000|360000|360000|0|15446421|&13|4|124|P|NORM|8|360000|360000|360000|0|15446421|&13|4|131|P|NORM|9|360000|360000|360000|0|15446421|&13|4|149|P|NORM|10|360000|360000|360000|0|15446421|&13|4|164|P|NORM|12|360000|360000|360000|0|15446421|&13|4|178|P|NORM|15|360000|360000|360000|0|15446421|&13|4|185|P|NORM|18|360000|360000|360000|0|15446421|&13|4|192|P|NORM|20|360000|360000|360000|0|15446421|&13|4|196|P|NORM|24|360000|360000|360000|0|15446421|&13|4|203|P|NORM|25|360000|360000|360000|0|15446421|&13|4|208|P|NORM|30|360000|360000|360000|0|15446421|&13|4|219|P|NORM|36|360000|360000|360000|0|15446421|&13|4|220|P|NORM|50|360000|360000|360000|0|15446421|&13|4|225|P|NORM|60|360000|360000|360000|0|15446421|&0002
+2016/03/15 12:11:25 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="225" ttrans="0" fecha="150316121124" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="0" debito="N" bin="559198" ncuotas="2" banco="198" precargo="0" trtarj="C" mcargo="0" plan="36"/></PS></T></O></pangui>
+2016/03/15 12:11:25 answer: veces cumple cond prom 418 (Anclaje)= 30
+2016/03/15 12:11:25 answer: No se aplican descuentos en esta promocion 418 = 0
+2016/03/15 12:11:25 answer: 000330|0|E106|2|225|150316121124|&0002
+2016/03/15 12:11:35 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="225" ttrans="0" fecha="150316121134" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="0" debito="N" bin="559198" ncuotas="2" banco="198" precargo="0" trtarj="C" mcargo="0" plan="36"/><P  id="9" tpago="11" monto="3600" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:11:35 answer: veces cumple cond prom 418 (Anclaje)= 30
+2016/03/15 12:11:35 answer: No se aplican descuentos en esta promocion 418 = 0
+2016/03/15 12:11:35 answer: 000330|0|E106|2|225|150316121134|&0002
+2016/03/15 12:12:31 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="226" ttrans="0" fecha="150316121229" operador="90406468" total="1200" canal="0"><LS><L  id="1" atribs="921545|10|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 12:12:31 answer: 000330|0|E106|2|226|150316121229|&0002
+2016/03/15 12:12:45 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="226" ttrans="0" fecha="150316121243" operador="90406468" total="1200" canal="0"><LS><L  id="1" atribs="921545|10|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="1200" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="1200" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:12:45 answer: se cumplen condciones opcion: 1
+2016/03/15 12:12:45 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 10
+2016/03/15 12:12:45 answer: 010930|0|E106|2|226|150316121243|&8|921545|640103006|1|1|415|10|120000|0|&10|415|0|6|Prueba Anclaje 2|14|||51|S|0|0|0|&13|2|27|P|NORM|1|120000|120000|120000|0|15446421|&13|4|36|P|NORM|2|120000|120000|120000|0|15446421|&13|4|54|P|NORM|3|120000|120000|120000|0|15446421|&13|4|71|P|NORM|4|120000|120000|120000|0|15446421|&13|4|83|P|NORM|5|120000|120000|120000|0|15446421|&13|4|102|P|NORM|6|120000|120000|120000|0|15446421|&13|4|124|P|NORM|8|120000|120000|120000|0|15446421|&13|4|131|P|NORM|9|120000|120000|120000|0|15446421|&13|4|149|P|NORM|10|120000|120000|120000|0|15446421|&13|4|164|P|NORM|12|120000|120000|120000|0|15446421|&13|4|178|P|NORM|15|120000|120000|120000|0|15446421|&13|4|185|P|NORM|18|120000|120000|120000|0|15446421|&13|4|192|P|NORM|20|120000|120000|120000|0|15446421|&13|4|196|P|NORM|24|120000|120000|120000|0|15446421|&13|4|203|P|NORM|25|120000|120000|120000|0|15446421|&13|4|208|P|NORM|30|120000|120000|120000|0|15446421|&13|4|219|P|NORM|36|120000|120000|120000|0|15446421|&13|4|220|P|NORM|50|120000|120000|120000|0|15446421|&13|4|225|P|NORM|60|120000|120000|120000|0|15446421|&0002
+2016/03/15 12:12:50 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="226" ttrans="0" fecha="150316121248" operador="90406468" total="1200" canal="0"><LS><L  id="1" atribs="921545|10|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="0" debito="N" bin="559198" ncuotas="2" banco="198" precargo="0" trtarj="C" mcargo="0" plan="36"/></PS></T></O></pangui>
+2016/03/15 12:12:50 answer: veces cumple cond prom 418 (Anclaje)= 10
+2016/03/15 12:12:50 answer: No se aplican descuentos en esta promocion 418 = 0
+2016/03/15 12:12:50 answer: 000330|0|E106|2|226|150316121248|&0002
+2016/03/15 12:12:55 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="226" ttrans="0" fecha="150316121253" operador="90406468" total="1200" canal="0"><LS><L  id="1" atribs="921545|10|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="0" debito="N" bin="559198" ncuotas="2" banco="198" precargo="0" trtarj="C" mcargo="0" plan="36"/><P  id="9" tpago="11" monto="1200" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:12:55 answer: veces cumple cond prom 418 (Anclaje)= 10
+2016/03/15 12:12:55 answer: No se aplican descuentos en esta promocion 418 = 0
+2016/03/15 12:12:55 answer: 000330|0|E106|2|226|150316121253|&0002
+2016/03/15 12:13:28 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="227" ttrans="0" fecha="150316121326" operador="90406468" total="600" canal="0"><LS><L  id="1" atribs="921545|5|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 12:13:28 answer: 000330|0|E106|2|227|150316121326|&0002
+2016/03/15 12:13:40 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="227" ttrans="0" fecha="150316121338" operador="90406468" total="600" canal="0"><LS><L  id="1" atribs="921545|5|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="600" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:13:40 answer: veces cumple cond prom 418 (Anclaje)= 5
+2016/03/15 12:13:40 answer: 010890|0|E106|2|227|150316121338|&8|921545|640103006|1|1|418|5|12000|0|&10|418|0|6|Anclaje|14|||51|S|0|0|0|&13|2|27|P|NORM|1|60000|12000|12000|0|15446421|&13|2|36|P|NORM|2|60000|12000|12000|2472|15446421|&13|2|54|P|NORM|3|60000|12000|12000|3317|15446421|&13|2|71|P|NORM|4|60000|12000|12000|4378|15446421|&13|2|83|P|NORM|5|60000|12000|12000|5280|15446421|&13|2|102|P|NORM|6|60000|12000|12000|6197|15446421|&13|2|124|P|NORM|8|60000|12000|12000|8059|15446421|&13|2|131|P|NORM|9|60000|12000|12000|9005|15446421|&13|2|149|P|NORM|10|60000|12000|12000|9960|15446421|&13|2|164|P|NORM|12|60000|12000|12000|12485|15446421|&13|2|178|P|NORM|15|60000|12000|12000|12566|15446421|&13|2|185|P|NORM|18|60000|12000|12000|18869|15446421|&13|2|192|P|NORM|20|60000|12000|12000|20918|15446421|&13|2|196|P|NORM|24|60000|12000|12000|25637|15446421|&13|2|203|P|NORM|25|60000|12000|12000|26616|15446421|&13|2|208|P|NORM|30|60000|12000|12000|32765|15446421|&13|2|219|P|NORM|36|60000|12000|12000|40248|15446421|&13|2|220|P|NORM|50|60000|12000|12000|58978|15446421|&13|2|225|P|NORM|60|60000|12000|12000|80376|15446421|&0002
+2016/03/15 12:13:45 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="227" ttrans="0" fecha="150316121343" operador="90406468" total="600" canal="0"><LS><L  id="1" atribs="921545|5|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="480" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="480" plan="27"/></PS></T></O></pangui>
+2016/03/15 12:13:45 answer: veces cumple cond prom 418 (Anclaje)= 5
+2016/03/15 12:13:45 answer: 001070|0|E106|2|227|150316121343|&8|921545|640103006|1|1|418|5|12000|0|&10|418|0|6|Anclaje|14|||51|S|0|0|0|&0002
+2016/03/15 12:21:04 req: <pangui><O oper="recarga_parcial" file="P0001095.XML" /></pangui>
+2016/03/15 12:21:04 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 12:21:04 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:21:04 system: Recarga parcial  - usuario: ELora - secuencia: 2091
+2016/03/15 12:21:04 system: Prom 415 (1092) - Prueba Anclaje 2 (V)
+2016/03/15 12:21:04 system: fin carga promociones
+2016/03/15 12:23:12 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="228" ttrans="0" fecha="150316122311" operador="90406468" total="2400" canal="0"><LS><L  id="1" atribs="921545|20|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 12:23:13 answer: 000330|0|E106|2|228|150316122311|&0002
+2016/03/15 12:23:24 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="228" ttrans="0" fecha="150316122322" operador="90406468" total="2400" canal="0"><LS><L  id="1" atribs="921545|20|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="2400" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="2400" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:23:24 answer: se cumplen condciones opcion: 1
+2016/03/15 12:23:24 answer: veces cumple cond prom 415 (Prueba Anclaje 2)= 20
+2016/03/15 12:23:24 answer: 011320|0|E106|2|228|150316122322|&8|921545|640103006|1|1|415|20|20000|0|&10|415|0|6|Prueba Anclaje 2|14|||51|S|0|0|0|&13|2|27|P|NORM|1|240000|20000|20000|0|15446421|&13|2|36|P|NORM|2|240000|20000|20000|11330|15446421|&13|2|54|P|NORM|3|240000|20000|20000|15202|15446421|&13|2|71|P|NORM|4|240000|20000|20000|20064|15446421|&13|2|83|P|NORM|5|240000|20000|20000|24200|15446421|&13|2|102|P|NORM|6|240000|20000|20000|28402|15446421|&13|2|124|P|NORM|8|240000|20000|20000|36938|15446421|&13|2|131|P|NORM|9|240000|20000|20000|41272|15446421|&13|2|149|P|NORM|10|240000|20000|20000|45650|15446421|&13|2|164|P|NORM|12|240000|20000|20000|57222|15446421|&13|2|178|P|NORM|15|240000|20000|20000|57596|15446421|&13|2|185|P|NORM|18|240000|20000|20000|86482|15446421|&13|2|192|P|NORM|20|240000|20000|20000|95876|15446421|&13|2|196|P|NORM|24|240000|20000|20000|117502|15446421|&13|2|203|P|NORM|25|240000|20000|20000|121990|15446421|&13|2|208|P|NORM|30|240000|20000|20000|150172|15446421|&13|2|219|P|NORM|36|240000|20000|20000|184470|15446421|&13|2|220|P|NORM|50|240000|20000|20000|270314|15446421|&13|2|225|P|NORM|60|240000|20000|20000|368390|15446421|&0002
+2016/03/15 12:23:30 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="228" ttrans="0" fecha="150316122329" operador="90406468" total="2400" canal="0"><LS><L  id="1" atribs="921545|20|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="2200" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="2200" plan="27"/></PS></T></O></pangui>
+2016/03/15 12:23:30 answer: 000330|0|E106|2|228|150316122329|&0002
+2016/03/15 12:23:50 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="228" ttrans="0" fecha="150316122348" operador="90406468" total="2400" canal="0"><LS><L  id="1" atribs="921545|20|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="2200" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="2200" plan="27"/><P  id="9" tpago="11" monto="200" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:23:50 answer: 000330|0|E106|2|228|150316122348|&0002
+2016/03/15 12:27:42 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="229" ttrans="0" fecha="150316122740" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 12:27:42 answer: 000330|0|E106|2|229|150316122740|&0002
+2016/03/15 12:27:50 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="229" ttrans="0" fecha="150316122749" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 12:27:50 answer: 000330|0|E106|2|229|150316122749|&0002
+2016/03/15 12:27:56 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="229" ttrans="0" fecha="150316122754" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:27:56 answer: 000330|0|E106|2|229|150316122754|&0002
+2016/03/15 12:29:57 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="230" ttrans="0" fecha="150316122955" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 12:29:57 answer: 000330|0|E106|2|230|150316122955|&0002
+2016/03/15 12:30:02 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="230" ttrans="0" fecha="150316123000" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 12:30:02 answer: 000330|0|E106|2|230|150316123000|&0002
+2016/03/15 12:30:07 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="230" ttrans="0" fecha="150316123006" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="9" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 12:30:07 answer: 000330|0|E106|2|230|150316123006|&0002
+2016/03/15 12:49:12 req: <pangui><O oper="recarga_parcial" file="P0001099.XML" /></pangui>
+2016/03/15 12:49:12 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 12:49:12 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:49:12 req: <pangui><O oper="recarga_parcial" file="P0001096.XML" /></pangui>
+2016/03/15 12:49:12 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 12:49:12 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:49:12 system: Recarga parcial  - usuario: ea1396 - secuencia: 2092
+2016/03/15 12:49:12 system: Prom 420 (1093) - Prueba Anclaje 4 (V)
+2016/03/15 12:49:12 system: fin carga promociones
+2016/03/15 12:49:12 system: detener parcial  - usuario: ea1396 - secuencia: 2093
+2016/03/15 12:49:12 system: Desactivar Prom 415 (1092) - Prueba Anclaje 2 
+2016/03/15 12:49:12 system: detener parcial  - usuario: ea1396 - secuencia: 2094
+2016/03/15 12:49:12 system: Desactivar Prom 418 (1090) - Anclaje 
+2016/03/15 12:49:12 system: Recarga parcial  - usuario: ea1396 - secuencia: 2095
+2016/03/15 12:49:13 system: Prom 419 (1091) - Anclaje 3 (V)
+2016/03/15 12:49:13 system: fin carga promociones
+2016/03/15 12:49:13 req: <pangui><O oper="recarga_parcial" file="P0001098.XML" /></pangui>
+2016/03/15 12:49:13 error: cargar promocion, archivo parcial unificado no encontrado: C:/PANGUI/XML/P0001098.XML 
+2016/03/15 12:49:13 answer: 00031<pangui><O error="1"/></pangui>
+2016/03/15 12:49:13 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:49:13 error: cargar promocion, archivo parcial unificado no encontrado: C:/PANGUI/XML/P0001098.XML 
+2016/03/15 12:49:15 error: ControlerPromociones: recargaParcial retorna codigo: 1 
+2016/03/15 12:49:15 req: <pangui><O oper="recarga_parcial" file="P0001097.XML" /></pangui>
+2016/03/15 12:49:15 error: cargar promocion, archivo parcial unificado no encontrado: C:/PANGUI/XML/P0001097.XML 
+2016/03/15 12:49:16 answer: 00031<pangui><O error="1"/></pangui>
+2016/03/15 12:49:16 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:49:16 error: cargar promocion, archivo parcial unificado no encontrado: C:/PANGUI/XML/P0001097.XML 
+2016/03/15 12:49:17 error: ControlerPromociones: recargaParcial retorna codigo: 1 
+2016/03/15 12:49:18 req: <pangui><O oper="recarga_parcial" file="P0001100.XML" /></pangui>
+2016/03/15 12:49:18 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 12:49:18 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 12:49:18 system: detener parcial  - usuario: ea1396 - secuencia: 2096
+2016/03/15 12:49:18 system: Desactivar Prom 419 (1091) - Anclaje 3 
+2016/03/15 14:12:59 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="231" ttrans="0" fecha="150316141257" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 14:12:59 answer: 000330|0|E106|2|231|150316141257|&0002
+2016/03/15 14:13:31 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="231" ttrans="0" fecha="150316141329" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 14:13:31 answer: se cumplen condciones opcion: 1
+2016/03/15 14:13:31 answer: veces cumple cond prom 420 (Prueba Anclaje 4)= 30
+2016/03/15 14:13:31 answer: 011340|0|E106|2|231|150316141329|&8|921545|640103006|1|1|420|30|72000|0|&10|420|0|6|Prueba Anclaje 4|14|||51|S|0|0|0|&13|2|27|P|NORM|1|360000|72000|72000|0|15446421|&13|2|36|P|NORM|2|360000|72000|72000|14832|15446421|&13|2|54|P|NORM|3|360000|72000|72000|19901|15446421|&13|2|71|P|NORM|4|360000|72000|72000|26266|15446421|&13|2|83|P|NORM|5|360000|72000|72000|31680|15446421|&13|2|102|P|NORM|6|360000|72000|72000|37181|15446421|&13|2|124|P|NORM|8|360000|72000|72000|48355|15446421|&13|2|131|P|NORM|9|360000|72000|72000|54029|15446421|&13|2|149|P|NORM|10|360000|72000|72000|59760|15446421|&13|2|164|P|NORM|12|360000|72000|72000|74909|15446421|&13|2|178|P|NORM|15|360000|72000|72000|75398|15446421|&13|2|185|P|NORM|18|360000|72000|72000|113213|15446421|&13|2|192|P|NORM|20|360000|72000|72000|125510|15446421|&13|2|196|P|NORM|24|360000|72000|72000|153821|15446421|&13|2|203|P|NORM|25|360000|72000|72000|159696|15446421|&13|2|208|P|NORM|30|360000|72000|72000|196589|15446421|&13|2|219|P|NORM|36|360000|72000|72000|241488|15446421|&13|2|220|P|NORM|50|360000|72000|72000|353866|15446421|&13|2|225|P|NORM|60|360000|72000|72000|482256|15446421|&0002
+2016/03/15 14:13:37 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="231" ttrans="0" fecha="150316141335" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="2880" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="2880" plan="27"/></PS></T></O></pangui>
+2016/03/15 14:13:37 answer: se cumplen condciones opcion: 1
+2016/03/15 14:13:37 answer: veces cumple cond prom 420 (Prueba Anclaje 4)= 30
+2016/03/15 14:13:37 answer: 001170|0|E106|2|231|150316141335|&8|921545|640103006|1|1|420|30|72000|0|&10|420|0|6|Prueba Anclaje 4|14|||51|S|0|0|0|&0002
+2016/03/15 16:42:24 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="233" ttrans="0" fecha="150316164222" operador="90406468" total="600" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:42:24 answer: 000330|0|E106|2|233|150316164222|&0002
+2016/03/15 16:42:30 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="233" ttrans="0" fecha="150316164228" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="16" atribs="921545|-4|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:42:30 answer: 000330|0|E106|2|233|150316164228|&0002
+2016/03/15 16:42:38 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="233" ttrans="0" fecha="150316164236" operador="90406468" total="120" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="16" atribs="921545|-4|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="19" tpago="11" monto="120" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 16:42:38 answer: 000330|0|E106|2|233|150316164236|&0002
+2016/03/15 16:43:04 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="234" ttrans="0" fecha="150316164302" operador="90406468" total="600" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:43:04 answer: 000330|0|E106|2|234|150316164302|&0002
+2016/03/15 16:43:15 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="234" ttrans="0" fecha="150316164313" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="16" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="18" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="21" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:43:16 answer: 000330|0|E106|2|234|150316164313|&0002
+2016/03/15 16:43:25 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="234" ttrans="0" fecha="150316164323" operador="90406468" total="240" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="16" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="18" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="21" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="24" tpago="11" monto="240" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 16:43:25 answer: 000330|0|E106|2|234|150316164323|&0002
+2016/03/15 16:43:52 req: <pangui><O oper="recarga_parcial" file="P0001101.XML" /></pangui>
+2016/03/15 16:43:52 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 16:43:52 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 16:43:52 system: Recarga parcial  - usuario: ea1396 - secuencia: 2097
+2016/03/15 16:43:52 system: Prom 421 (1095) - Prueba Anclaje 2 (V)
+2016/03/15 16:43:52 system: fin carga promociones
+2016/03/15 16:45:14 req: <pangui><O oper="recargar_xmls"/></pangui>
+2016/03/15 16:45:14 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 16:45:14 system: tamaño archivo unificado promociones = 50412
+2016/03/15 16:45:14 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 16:45:14 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 16:45:14 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 16:45:14 system: tamaño archivo unificado promociones = 50412
+2016/03/15 16:45:14 system: borrar Parciales Pendientes = 7
+2016/03/15 16:45:14 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 16:45:14 system: tamaño archivo unificado promociones = 50412
+2016/03/15 16:45:14 system: Recarga Promociones FULL - usuario: ea1396 - secuencia: 2098
+2016/03/15 16:45:14 warning: xml tipos promocion no encontrado
+2016/03/15 16:45:14 warning: xml tasas no encontrado
+2016/03/15 16:45:15 warning: xml tasas tpago no encontrado
+2016/03/15 16:45:15 warning: xml marca tarjetas no encontrado
+2016/03/15 16:45:15 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 16:45:15 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 16:45:15 warning: xml exclusion garantia no encontrado
+2016/03/15 16:45:15 warning: xml locales no encontrado
+2016/03/15 16:45:15 warning: xml tasas diferenciales no encontrado
+2016/03/15 16:45:15 warning: xml PRM_TIENDA no encontrado
+2016/03/15 16:45:15 system: carga datos promociones  = 6
+2016/03/15 16:45:15 system: liberada mem promociones ant
+2016/03/15 16:45:15 system: Prom 233 (629) - PRUEBA MUNDO EXPERTO (V)
+2016/03/15 16:45:15 system: Prom 273 (797) - Club Argenta (V)
+2016/03/15 16:45:15 system: Prom 364 (978) - Prueba motor linux (V)
+2016/03/15 16:45:15 system: Prom 308 (982) - CLARIN 365 (V)
+2016/03/15 16:45:15 system: Prom 365 (983) - Empleado (V)
+2016/03/15 16:45:15 system: Prom 421 (1095) - Prueba Anclaje 2 (V)
+2016/03/15 16:45:15 system: fin carga promociones
+2016/03/15 16:45:15 system: liberada mem parser promociones
+2016/03/15 16:45:15 system: finalizada carga secciones xml
+2016/03/15 16:45:15 system: Lectura Planes de Pago asociados a local = E106
+2016/03/15 16:45:15 system: arhivo de entrada = C:/PANGUI/XML/planpago.txt
+2016/03/15 16:45:15 system: Numero de planes asociados al local = 0
+2016/03/15 16:45:39 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="235" ttrans="0" fecha="150316164537" operador="90406468" total="480" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:45:39 answer: 000330|0|E106|2|235|150316164537|&0002
+2016/03/15 16:46:46 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="235" ttrans="0" fecha="150316164644" operador="90406468" total="657" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="400832115868|1|N|PCE|59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="16" atribs="400832115868|2|N|PCE|59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:46:46 answer: 000330|0|E106|2|235|150316164644|&0002
+2016/03/15 16:47:19 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="235" ttrans="0" fecha="150316164717" operador="90406468" total="299" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="400832115868|1|N|PCE|59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="16" atribs="400832115868|2|N|PCE|59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="19" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="21" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="24" atribs="400832115868|-1|N|PCE|-59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="26" atribs="400832115868|-1|N|PCE|-59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:47:19 answer: 000330|0|E106|2|235|150316164717|&0002
+2016/03/15 16:47:25 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="235" ttrans="0" fecha="150316164723" operador="90406468" total="299" canal="0"><LS><L  id="1" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="4" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="7" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="10" atribs="921545|1|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="13" atribs="400832115868|1|N|PCE|59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="16" atribs="400832115868|2|N|PCE|59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="19" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="21" atribs="921545|-1|N|PCE|-120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="24" atribs="400832115868|-1|N|PCE|-59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/><L  id="26" atribs="400832115868|-1|N|PCE|-59|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="30" tpago="11" monto="300" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 16:47:25 answer: 000330|0|E106|2|235|150316164723|&0002
+2016/03/15 16:51:50 req: <pangui><O oper="recarga_parcial" file="P0001103.XML" /></pangui>
+2016/03/15 16:51:50 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 16:51:50 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 16:51:50 system: Recarga parcial  - usuario: ea1396 - secuencia: 2100
+2016/03/15 16:51:50 system: Prom 421 (1097) - Prueba Anclaje (V)
+2016/03/15 16:51:50 system: fin carga promociones
+2016/03/15 16:51:50 req: <pangui><O oper="recarga_parcial" file="P0001102.XML" /></pangui>
+2016/03/15 16:51:50 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 16:51:50 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 16:51:50 system: Recarga parcial  - usuario: ea1396 - secuencia: 2099
+2016/03/15 16:51:50 system: Prom 422 (1096) - Prueba Anclaje 2 (V)
+2016/03/15 16:51:50 system: fin carga promociones
+2016/03/15 16:53:50 req: <pangui><O oper="recarga_parcial" file="P0001104.XML" /></pangui>
+2016/03/15 16:53:50 answer: 00033<pangui><O status="ok"/></pangui>
+2016/03/15 16:53:50 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 16:53:50 system: Recarga parcial  - usuario: ea1396 - secuencia: 2101
+2016/03/15 16:53:50 system: Prom 422 (1098) - Prueba Anclaje 2 (V)
+2016/03/15 16:53:50 system: fin carga promociones
+2016/03/15 16:54:17 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="236" ttrans="0" fecha="150316165415" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:54:17 answer: 000330|0|E106|2|236|150316165415|&0002
+2016/03/15 16:54:33 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="236" ttrans="0" fecha="150316165431" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 16:54:33 answer: se cumplen condciones opcion: 1
+2016/03/15 16:54:33 answer: veces cumple cond prom 421 (Prueba Anclaje)= 30
+2016/03/15 16:54:33 answer: 001150|0|E106|2|236|150316165431|&8|921545|640103006|1|1|421|30|20000|0|&10|421|0|6|Prueba Anclaje|14|||51|S|0|0|0|&0002
+2016/03/15 16:55:34 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 16:55:34 system: Config file: C:/PANGUI/promo.pro
+2016/03/15 16:55:34 system: server socket port = 7451
+2016/03/15 16:55:34 system: socket configured as non blocking
+2016/03/15 16:55:34 system: instanciar  ControlerPromociones
+2016/03/15 16:55:34 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 16:55:34 system: tamaño archivo unificado promociones = 50412
+2016/03/15 16:55:34 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 16:55:34 system: tamaño archivo unificado promociones = 50412
+2016/03/15 16:55:34 system: Recarga Promociones FULL - usuario: ea1396 - secuencia: 2098
+2016/03/15 16:55:34 warning: xml tipos promocion no encontrado
+2016/03/15 16:55:34 warning: xml tasas no encontrado
+2016/03/15 16:55:34 warning: xml tasas tpago no encontrado
+2016/03/15 16:55:34 warning: xml marca tarjetas no encontrado
+2016/03/15 16:55:34 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 16:55:34 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 16:55:34 warning: xml exclusion garantia no encontrado
+2016/03/15 16:55:34 warning: xml locales no encontrado
+2016/03/15 16:55:35 warning: xml tasas diferenciales no encontrado
+2016/03/15 16:55:35 warning: xml PRM_TIENDA no encontrado
+2016/03/15 16:55:35 system: carga datos promociones  = 6
+2016/03/15 16:55:35 system: liberada mem promociones ant
+2016/03/15 16:55:35 system: Prom 233 (629) - PRUEBA MUNDO EXPERTO (V)
+2016/03/15 16:55:35 system: Prom 273 (797) - Club Argenta (V)
+2016/03/15 16:55:35 system: Prom 364 (978) - Prueba motor linux (V)
+2016/03/15 16:55:35 system: Prom 308 (982) - CLARIN 365 (V)
+2016/03/15 16:55:35 system: Prom 365 (983) - Empleado (V)
+2016/03/15 16:55:35 system: Prom 421 (1095) - Prueba Anclaje 2 (V)
+2016/03/15 16:55:35 system: fin carga promociones
+2016/03/15 16:55:35 system: liberada mem parser promociones
+2016/03/15 16:55:35 system: finalizada carga secciones xml
+2016/03/15 16:55:35 system: recargar Parciales Pendientes
+2016/03/15 16:55:35 system: lectura archivos parciales pendientes = 3
+2016/03/15 16:55:35 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2100
+2016/03/15 16:55:35 system: Prom 421 (1097) - Prueba Anclaje (V)
+2016/03/15 16:55:35 system: fin carga promociones
+2016/03/15 16:55:35 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2099
+2016/03/15 16:55:35 system: Prom 422 (1096) - Prueba Anclaje 2 (V)
+2016/03/15 16:55:35 system: fin carga promociones
+2016/03/15 16:55:35 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2101
+2016/03/15 16:55:35 system: Prom 422 (1098) - Prueba Anclaje 2 (V)
+2016/03/15 16:55:35 system: fin carga promociones
+2016/03/15 16:55:35 system: Lectura Planes de Pago asociados a local = E106
+2016/03/15 16:55:35 system: arhivo de entrada = C:/PANGUI/XML/planpago.txt
+2016/03/15 16:55:36 system: Numero de planes asociados al local = 225
+2016/03/15 16:55:36 system: pedir memoria para bufferInReused
+2016/03/15 16:55:36 system: pedir memoria para bufferOutReused
+2016/03/15 16:55:36 system: sock_init()
+2016/03/15 16:55:36 system: try to create a new socket
+2016/03/15 16:55:36 system: created a new socket = 28
+2016/03/15 16:55:36 system: bind socket = 28
+2016/03/15 16:55:36 system: listen on socket = 28
+2016/03/15 16:55:36 system: while listen/accept
+2016/03/15 16:55:43 system: Srv Promociones 4690 Cencosud Home Arg. v3.55 10/03/15
+2016/03/15 16:55:43 system: Config file: C:/PANGUI/promo.pro
+2016/03/15 16:55:44 system: server socket port = 7451
+2016/03/15 16:55:44 system: socket configured as non blocking
+2016/03/15 16:55:44 system: instanciar  ControlerPromociones
+2016/03/15 16:55:44 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 16:55:44 system: tamaño archivo unificado promociones = 50412
+2016/03/15 16:55:44 system: lectura archivo unificado promociones = C:/PANGUI/XML/promocio.xml
+2016/03/15 16:55:44 system: tamaño archivo unificado promociones = 50412
+2016/03/15 16:55:44 system: Recarga Promociones FULL - usuario: ea1396 - secuencia: 2098
+2016/03/15 16:55:44 warning: xml tipos promocion no encontrado
+2016/03/15 16:55:44 warning: xml tasas no encontrado
+2016/03/15 16:55:44 warning: xml tasas tpago no encontrado
+2016/03/15 16:55:44 warning: xml marca tarjetas no encontrado
+2016/03/15 16:55:44 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 16:55:44 warning: xml marca tarjetas vs sucursal no encontrado
+2016/03/15 16:55:44 warning: xml exclusion garantia no encontrado
+2016/03/15 16:55:44 warning: xml locales no encontrado
+2016/03/15 16:55:44 warning: xml tasas diferenciales no encontrado
+2016/03/15 16:55:44 warning: xml PRM_TIENDA no encontrado
+2016/03/15 16:55:44 system: carga datos promociones  = 6
+2016/03/15 16:55:44 system: liberada mem promociones ant
+2016/03/15 16:55:44 system: Prom 233 (629) - PRUEBA MUNDO EXPERTO (V)
+2016/03/15 16:55:44 system: Prom 273 (797) - Club Argenta (V)
+2016/03/15 16:55:44 system: Prom 364 (978) - Prueba motor linux (V)
+2016/03/15 16:55:44 system: Prom 308 (982) - CLARIN 365 (V)
+2016/03/15 16:55:44 system: Prom 365 (983) - Empleado (V)
+2016/03/15 16:55:44 system: Prom 421 (1095) - Prueba Anclaje 2 (V)
+2016/03/15 16:55:44 system: fin carga promociones
+2016/03/15 16:55:44 system: liberada mem parser promociones
+2016/03/15 16:55:44 system: finalizada carga secciones xml
+2016/03/15 16:55:44 system: recargar Parciales Pendientes
+2016/03/15 16:55:44 system: lectura archivos parciales pendientes = 3
+2016/03/15 16:55:44 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2100
+2016/03/15 16:55:44 system: Prom 421 (1097) - Prueba Anclaje (V)
+2016/03/15 16:55:44 system: fin carga promociones
+2016/03/15 16:55:44 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2099
+2016/03/15 16:55:44 system: Prom 422 (1096) - Prueba Anclaje 2 (V)
+2016/03/15 16:55:44 system: fin carga promociones
+2016/03/15 16:55:44 system: Recarga activacion parcial  - usuario: ea1396 - secuencia: 2101
+2016/03/15 16:55:44 system: Prom 422 (1098) - Prueba Anclaje 2 (V)
+2016/03/15 16:55:44 system: fin carga promociones
+2016/03/15 16:55:44 system: Lectura Planes de Pago asociados a local = E106
+2016/03/15 16:55:44 system: arhivo de entrada = C:/PANGUI/XML/planpago.txt
+2016/03/15 16:55:45 system: Numero de planes asociados al local = 225
+2016/03/15 16:55:45 system: pedir memoria para bufferInReused
+2016/03/15 16:55:45 system: pedir memoria para bufferOutReused
+2016/03/15 16:55:45 system: sock_init()
+2016/03/15 16:55:45 system: try to create a new socket
+2016/03/15 16:55:45 system: created a new socket = 29
+2016/03/15 16:55:45 system: bind socket = 29
+2016/03/15 16:55:45 system: listen on socket = 29
+2016/03/15 16:55:45 system: while listen/accept
+2016/03/15 16:56:17 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="236" ttrans="0" fecha="150316165615" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="3600" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="3600" plan="0"/></PS></T></O></pangui>
+2016/03/15 16:56:17 answer: se cumplen condciones opcion: 1
+2016/03/15 16:56:17 answer: veces cumple cond prom 421 (Prueba Anclaje)= 30
+2016/03/15 16:56:17 answer: 011320|0|E106|2|236|150316165615|&8|921545|640103006|1|1|421|30|20000|0|&10|421|0|6|Prueba Anclaje|14|||51|S|0|0|0|&13|2|27|P|NORM|1|360000|20000|20000|0|15446421|&13|2|36|P|NORM|2|360000|20000|20000|17510|15446421|&13|2|54|P|NORM|3|360000|20000|20000|23494|15446421|&13|2|71|P|NORM|4|360000|20000|20000|31008|15446421|&13|2|83|P|NORM|5|360000|20000|20000|37400|15446421|&13|2|102|P|NORM|6|360000|20000|20000|43894|15446421|&13|2|124|P|NORM|8|360000|20000|20000|57086|15446421|&13|2|131|P|NORM|9|360000|20000|20000|63784|15446421|&13|2|149|P|NORM|10|360000|20000|20000|70550|15446421|&13|2|164|P|NORM|12|360000|20000|20000|88434|15446421|&13|2|178|P|NORM|15|360000|20000|20000|89012|15446421|&13|2|185|P|NORM|18|360000|20000|20000|133654|15446421|&13|2|192|P|NORM|20|360000|20000|20000|148172|15446421|&13|2|196|P|NORM|24|360000|20000|20000|181594|15446421|&13|2|203|P|NORM|25|360000|20000|20000|188530|15446421|&13|2|208|P|NORM|30|360000|20000|20000|232084|15446421|&13|2|219|P|NORM|36|360000|20000|20000|285090|15446421|&13|2|220|P|NORM|50|360000|20000|20000|417758|15446421|&13|2|225|P|NORM|60|360000|20000|20000|569330|15446421|&0002
+2016/03/15 16:56:22 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="236" ttrans="0" fecha="150316165620" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="8" tpago="51" stpago="MM" monto="3400" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="3400" plan="27"/></PS></T></O></pangui>
+2016/03/15 16:56:22 answer: 000330|0|E106|2|236|150316165620|&0002
+2016/03/15 16:56:30 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="236" ttrans="0" fecha="150316165628" operador="90406468" total="3600" canal="0"><LS><L  id="1" atribs="921545|30|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="8" tpago="51" stpago="MM" monto="3400" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="3400" plan="27"/><P  id="10" tpago="11" monto="200" ncuotas="0" precargo="0" trtarj="C" mcargo="0" plan="0"/></PS></T></O></pangui>
+2016/03/15 16:56:30 answer: 000330|0|E106|2|236|150316165628|&0002
+2016/03/15 16:57:17 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="237" ttrans="0" fecha="150316165715" operador="90406468" total="960" canal="0"><LS><L  id="1" atribs="921545|8|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN></T></O></pangui>
+2016/03/15 16:57:18 answer: 000330|0|E106|2|237|150316165715|&0002
+2016/03/15 16:57:29 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="237" ttrans="0" fecha="150316165727" operador="90406468" total="960" canal="0"><LS><L  id="1" atribs="921545|8|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="51" tpago="51" stpago="MM" monto="960" debito="N" bin="559198" ncuotas="0" banco="198" precargo="0" trtarj="C" mcargo="960" plan="0"/></PS></T></O></pangui>
+2016/03/15 16:57:29 answer: se cumplen condciones opcion: 1
+2016/03/15 16:57:29 answer: veces cumple cond prom 422 (Prueba Anclaje 2)= 8
+2016/03/15 16:57:29 answer: 011020|0|E106|2|237|150316165727|&8|921545|640103006|1|1|422|8|19200|0|&10|422|0|6|Prueba Anclaje 2|14|||51|S|0|0|0|&13|2|27|P|NORM|1|96000|19200|19200|0|15446421|&13|2|36|P|NORM|2|96000|19200|19200|3955|15446421|&13|2|54|P|NORM|3|96000|19200|19200|5307|15446421|&13|2|71|P|NORM|4|96000|19200|19200|7004|15446421|&13|2|83|P|NORM|5|96000|19200|19200|8448|15446421|&13|2|102|P|NORM|6|96000|19200|19200|9915|15446421|&13|2|124|P|NORM|8|96000|19200|19200|12895|15446421|&13|2|131|P|NORM|9|96000|19200|19200|14408|15446421|&13|2|149|P|NORM|10|96000|19200|19200|15936|15446421|&13|2|164|P|NORM|12|96000|19200|19200|19976|15446421|&13|2|178|P|NORM|15|96000|19200|19200|20106|15446421|&13|2|185|P|NORM|18|96000|19200|19200|30190|15446421|&13|2|192|P|NORM|20|96000|19200|19200|33469|15446421|&13|2|196|P|NORM|24|96000|19200|19200|41019|15446421|&13|2|203|P|NORM|25|96000|19200|19200|42586|15446421|&13|2|208|P|NORM|30|96000|19200|19200|52424|15446421|&13|2|219|P|NORM|36|96000|19200|19200|64397|15446421|&13|2|220|P|NORM|50|96000|19200|19200|94364|15446421|&13|2|225|P|NORM|60|96000|19200|19200|128602|15446421|&0002
+2016/03/15 16:57:36 req: <?xml version="1.0" encoding="ISO-8859-1"?><pangui><O oper="C"><T  local="E106" pos="2" trans="237" ttrans="0" fecha="150316165734" operador="90406468" total="960" canal="0"><LS><L  id="1" atribs="921545|8|N|PCE|120|0|640103006|          |0|||||000000001132510008||0|||||||56|0|0|0|0|   |0000000000921545|0|"/></LS><C  tcliente="CF" tdoc="0" perfact="0"></C><BEN></BEN><PS><P  id="7" tpago="51" stpago="MM" monto="768" debito="N" bin="559198" ncuotas="1" banco="198" precargo="0" trtarj="C" mcargo="768" plan="27"/></PS></T></O></pangui>
+2016/03/15 16:57:36 answer: se cumplen condciones opcion: 1
+2016/03/15 16:57:36 answer: veces cumple cond prom 422 (Prueba Anclaje 2)= 8
+2016/03/15 16:57:36 answer: 001160|0|E106|2|237|150316165734|&8|921545|640103006|1|1|422|8|19200|0|&10|422|0|6|Prueba Anclaje 2|14|||51|S|0|0|0|&0002

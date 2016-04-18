@@ -10,24 +10,28 @@
     tools:context="net.gabrielf.apppedidos.MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ingresar"
+        android:text="Iniciar sesión"
         android:id="@+id/btn_ingresar"
         android:onClick="onButtonClick"
-        android:background="#ff5722"
-        android:textColor="#ffffff"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/btn_singin"
-        android:layout_alignStart="@+id/btn_singin" />
+        android:background="@drawable/botonpulsado"
+        android:textColor="#000000"
+        android:layout_below="@+id/tv_pass"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="45dp"
+        android:allowUndo="false"
+        android:textSize="17sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_user"
+        android:hint="Usuario"
+        android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:hint="Usuario" />
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="match_parent"
@@ -35,22 +39,45 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/tv_pass"
+        android:hint="Contraseña"
+        android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="39dp"
-        android:layout_below="@+id/tv_user"
-        android:hint="Password" />
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Registro"
+        android:text="Crea tu cuenta"
         android:id="@+id/btn_singin"
         android:onClick="onButtonClick"
-        android:background="#ff5722"
-        android:textColor="#ffffff"
+        android:background="@drawable/botonpulsado2"
+        android:textColor="#000000"
         android:layout_below="@+id/btn_ingresar"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp" />
+        android:textAllCaps="false"
+        android:layout_marginTop="45dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Usuario"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#181616" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contraseña"
+        android:id="@+id/textView4"
+        android:textColor="#181616"
+        android:layout_below="@+id/tv_user"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

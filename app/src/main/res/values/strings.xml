@@ -2,7 +2,14 @@
     <string name="app_name">App Pedidos</string>
     <string name="emptyString" />
     <string name="emptyString2" />
-    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_navigation">Pedidos Sin Límites</string>
+    <string name="title_RegistraActivity">Registrarme</string>
+    <string name="title_MainActivity">Iniciar sesión</string>
+    <string name="title_RegistraProdActivity">Registrar Producto</string>
+    <string name="title_ListaActivity">Lista de productos</string>
+    <string name="title_EliminarActivity">Eliminar Producto</string>
+    <string name="title_Pre_modificarActivity">PreModificar Producto</string>
+    <string name="title_ModificarActivity">Modificar Producto</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

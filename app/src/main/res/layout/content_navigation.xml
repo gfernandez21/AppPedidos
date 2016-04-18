@@ -16,17 +16,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton10"
-        android:background="@mipmap/sandwich_menu_48"
+        android:background="@mipmap/espresso_64"
         android:layout_below="@+id/textView27"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="36dp" />
+        android:layout_marginTop="36dp"
+        android:onClick="onCategoriaCafeClick" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton11"
-        android:background="@mipmap/pizza_slice_48"
+        android:background="@mipmap/pizza_64"
         android:layout_alignTop="@+id/imageButton10"
         android:layout_centerHorizontal="true"
         android:onClick="onCategoriaPizzaClick" />
@@ -35,79 +36,87 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton12"
-        android:background="@mipmap/taco_48"
+        android:background="@mipmap/taco_64"
         android:layout_alignTop="@+id/imageButton11"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="onCategoriaTacoClick" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Taco"
+        android:text="Tacos"
         android:id="@+id/textView18"
+        android:textSize="@dimen/abc_text_size_medium_material"
         android:layout_below="@+id/imageButton12"
-        android:layout_alignLeft="@+id/imageButton12"
-        android:layout_alignStart="@+id/imageButton12" />
+        android:layout_alignRight="@+id/imageButton12"
+        android:layout_alignEnd="@+id/imageButton12" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pizza"
+        android:text="Pizzas"
         android:id="@+id/textView19"
         android:layout_alignTop="@+id/textView18"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/abc_text_size_medium_material" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton13"
-        android:background="@mipmap/hot_dog2_48"
+        android:background="@mipmap/hot_dog_64"
+        android:onClick="onCategoriaHotDogClick"
         android:layout_below="@+id/textView20"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton14"
-        android:background="@mipmap/fries_48"
+        android:background="@mipmap/fries_64"
+        android:nestedScrollingEnabled="false"
+        android:onClick="onCategoriaPapasFritasClick"
         android:layout_above="@+id/textView24"
-        android:layout_alignLeft="@+id/imageButton11"
-        android:layout_alignStart="@+id/imageButton11"
-        android:nestedScrollingEnabled="false" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Papas Fritas"
         android:id="@+id/textView22"
+        android:textSize="@dimen/abc_text_size_medium_material"
         android:layout_below="@+id/imageButton14"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton15"
-        android:background="@mipmap/cheeseburger_48"
-        android:layout_alignTop="@+id/imageButton14"
-        android:layout_alignLeft="@+id/imageButton12"
-        android:layout_alignStart="@+id/imageButton12" />
+        android:background="@mipmap/cheeseburger_64"
+        android:onClick="onCategoriaChurrascoClick"
+        android:layout_alignTop="@+id/imageButton18"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hamburguesa"
+        android:text="Churrascos"
         android:id="@+id/textView23"
         android:layout_below="@+id/imageButton15"
-        android:layout_alignRight="@+id/imageButton15"
-        android:layout_alignEnd="@+id/imageButton15" />
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/abc_text_size_medium_material" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton16"
-        android:background="@mipmap/fast_food_menu_48"
-        android:layout_below="@+id/textView24"
+        android:background="@mipmap/fast_food_menu_64"
+        android:onClick="onCategoriaCombosClick"
+        android:layout_alignTop="@+id/imageButton15"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -115,28 +124,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton17"
-        android:background="@mipmap/chicken_nuggets_48"
-        android:layout_alignTop="@+id/imageButton16"
-        android:layout_alignLeft="@+id/imageButton14"
-        android:layout_alignStart="@+id/imageButton14" />
+        android:background="@mipmap/chicken_nuggets_64"
+        android:onClick="onCategoriaNuggetClick"
+        android:nestedScrollingEnabled="false"
+        android:layout_alignTop="@+id/imageButton14"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton18"
-        android:background="@mipmap/icecream3_48"
-        android:layout_alignTop="@+id/imageButton17"
-        android:layout_alignLeft="@+id/imageButton15"
-        android:layout_alignStart="@+id/imageButton15" />
+        android:background="@mipmap/coke_classic_woops_64"
+        android:layout_marginTop="51dp"
+        android:onClick="onCategoriaBebidasClick"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Postres"
+        android:text="Bebidas"
         android:id="@+id/textView26"
+        android:textSize="@dimen/abc_text_size_medium_material"
         android:layout_below="@+id/imageButton18"
-        android:layout_alignRight="@+id/imageButton18"
-        android:layout_alignEnd="@+id/imageButton18" />
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -151,36 +165,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Combo 1"
+        android:text="Cafe"
         android:id="@+id/textView20"
-        android:layout_alignTop="@+id/textView19"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_below="@+id/imageButton10"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hot Dog"
+        android:text="Hot Dogs"
         android:id="@+id/textView24"
         android:layout_below="@+id/imageButton13"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/abc_text_size_medium_material" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nugget"
-        android:id="@+id/textView25"
-        android:layout_alignTop="@+id/textView26"
-        android:layout_alignLeft="@+id/imageButton17"
-        android:layout_alignStart="@+id/imageButton17" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Combo 2"
+        android:text="Combos"
         android:id="@+id/textView28"
-        android:layout_alignTop="@+id/textView25"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_alignTop="@+id/textView23"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -198,9 +206,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="¿Que desea ordenar?"
+        android:text="¿Que deseas ordenar?"
         android:id="@+id/textView29"
-        android:layout_below="@+id/textView25"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="86dp" />
+        android:layout_marginBottom="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nugget"
+        android:id="@+id/textView2"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_below="@+id/imageButton17"
+        android:layout_alignLeft="@+id/imageButton12"
+        android:layout_alignStart="@+id/imageButton12" />
 </RelativeLayout>

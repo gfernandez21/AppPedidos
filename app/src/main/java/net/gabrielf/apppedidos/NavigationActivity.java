@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    static int global=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -109,8 +109,8 @@ public class NavigationActivity extends AppCompatActivity
     }
 
     public void onCategoriaPizzaClick(View v){
-
         if (v.getId() == R.id.imageButton11) {
+            global=1;
             Intent i = new Intent(this, ListaActivity.class);
             startActivity(i);
 
@@ -118,5 +118,84 @@ public class NavigationActivity extends AppCompatActivity
 
     }
 
+    public void onCategoriaHotDogClick(View v){
+         if (v.getId() == R.id.imageButton13) {
+             global=2;
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+         }
+
+    }
+
+    public void onCategoriaNuggetClick(View v){
+        if (v.getId() == R.id.imageButton17) {
+            global=3;
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
+    }
+
+    public void onCategoriaPapasFritasClick(View v){
+        if (v.getId() == R.id.imageButton14) {
+            global=4;
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
+    }
+
+    public void onCategoriaChurrascoClick(View v){
+        if (v.getId() == R.id.imageButton15) {
+            global=5;
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
+    }
+
+    public void onCategoriaBebidasClick(View v){
+        if (v.getId() == R.id.imageButton18) {
+            global=6;
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
+    }
+
+    public void onCategoriaTacoClick(View v){
+        if (v.getId() == R.id.imageButton12) {
+            global=7;
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
+    }
+
+    public void onCategoriaCombosClick(View v){
+        if (v.getId() == R.id.imageButton16) {
+            global=8;
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
+    }
+
+    public void onCategoriaCafeClick(View v){
+        if (v.getId() == R.id.imageButton10) {
+            global=9;
+            Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
+    }
 
 }

@@ -193,7 +193,103 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     //listar a todos los productos
     public Cursor listaritems(){
         SQLiteDatabase db = getReadableDatabase();
-        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE 1 ORDER BY " + COLUMN_NOMBREPROD + ";");
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'P%'" + ";");
+        Cursor c = db.rawQuery(query, null);
+
+        if (c != null) {
+            c.moveToFirst();
+        }
+
+        return c;
+    }
+
+    public Cursor listaritems2(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'H%'" + ";");
+        Cursor c = db.rawQuery(query, null);
+
+        if (c != null) {
+            c.moveToFirst();
+        }
+
+        return c;
+    }
+
+    public Cursor listaritems3(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'NU%'" + ";");
+        Cursor c = db.rawQuery(query, null);
+
+        if (c != null) {
+            c.moveToFirst();
+        }
+
+        return c;
+    }
+
+    public Cursor listaritems4(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'PA%'" + ";");
+        Cursor c = db.rawQuery(query, null);
+
+        if (c != null) {
+            c.moveToFirst();
+        }
+
+        return c;
+    }
+
+    public Cursor listaritems5(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'CH%'" + ";");
+        Cursor c = db.rawQuery(query, null);
+
+        if (c != null) {
+            c.moveToFirst();
+        }
+
+        return c;
+    }
+
+    public Cursor listaritems6(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'BE%'" + ";");
+        Cursor c = db.rawQuery(query, null);
+
+        if (c != null) {
+            c.moveToFirst();
+        }
+
+        return c;
+    }
+
+    public Cursor listaritems7(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'TA%'" + ";");
+        Cursor c = db.rawQuery(query, null);
+
+        if (c != null) {
+            c.moveToFirst();
+        }
+
+        return c;
+    }
+
+    public Cursor listaritems8(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'CO%'" + ";");
+        Cursor c = db.rawQuery(query, null);
+
+        if (c != null) {
+            c.moveToFirst();
+        }
+
+        return c;
+    }
+
+    public Cursor listaritems9(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = ("SELECT * FROM " + TABLE_NAME2 + " WHERE" +" "  + COLUMN_NOMBREPROD + " " + "LIKE" + "'CAF%'" + ";");
         Cursor c = db.rawQuery(query, null);
 
         if (c != null) {

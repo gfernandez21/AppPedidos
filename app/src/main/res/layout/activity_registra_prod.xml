@@ -13,63 +13,101 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_nomProd"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:hint="Nombre Producto" />
+        android:hint="Nombre Producto"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_detalleProd"
-        android:layout_below="@+id/tv_nomProd"
+        android:hint="Detalle Producto"
+        android:layout_below="@+id/textView11"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:hint="Detalle Producto" />
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_precioProd"
-        android:layout_below="@+id/tv_detalleProd"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:hint="Precio Producto"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Aceptar"
         android:id="@+id/btn_prod"
-        android:background="#ff5722"
-        android:textColor="#ffffff"
+        android:background="@drawable/botonpulsado"
+        android:textColor="#000000"
         android:onClick="onClick"
-        android:layout_below="@+id/tv_precioProd"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Eliminar"
         android:id="@+id/btn_eliminar"
         android:onClick="onEliminar"
-        android:background="#ff5722"
-        android:textColor="#ffffff"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/btn_prod"
-        android:layout_alignStart="@+id/btn_prod" />
+        android:background="@drawable/botonpulsado"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:layout_below="@+id/btn_prod"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Editar"
         android:id="@+id/btn_modificar"
-        android:background="#ff5722"
-        android:textColor="#ffffff"
+        android:background="@drawable/botonpulsado"
+        android:textColor="#000000"
         android:onClick="premodificar"
-        android:layout_marginTop="40dp"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:layout_marginTop="33dp"
         android:layout_below="@+id/btn_eliminar"
-        android:layout_alignLeft="@+id/btn_eliminar"
-        android:layout_alignStart="@+id/btn_eliminar" />
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nombre Producto"
+        android:id="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#181616" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Detalle Producto"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/tv_nomProd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#181616" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Precio Producto"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/tv_detalleProd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#181616" />
 </RelativeLayout>

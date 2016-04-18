@@ -21,15 +21,17 @@
 
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Modificar"
         android:id="@+id/pre_modificar_btn"
         android:layout_below="@+id/modificar_input"
         android:layout_centerHorizontal="true"
         android:onClick="modificar_clicked"
-        android:textColor="#ffffff"
-        android:background="#ff5722" />
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:background="@drawable/botonpulsado"
+        android:textSize="17sp" />
 
     <TextView
         android:layout_width="wrap_content"
