@@ -2,15 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.gabrielf.apppedidos">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/cheeseburger_48"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,33 +19,32 @@
         </activity>
         <activity
             android:name=".RegistraActivity"
-            android:label="@string/title_RegistraActivity"
-            />
+            android:label="@string/title_RegistraActivity" />
         <activity
             android:name=".NavigationActivity"
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RegistraProdActivity"
-            android:label="@string/title_RegistraProdActivity"
-            />
+            android:label="@string/title_RegistraProdActivity" />
         <activity
             android:name=".ListaActivity"
-            android:label="@string/title_ListaActivity"
-            />
+            android:label="@string/title_ListaActivity" />
         <activity
             android:name=".EliminarActivity"
-            android:label="@string/title_EliminarActivity"
-            />
+            android:label="@string/title_EliminarActivity" />
         <activity
             android:name=".Pre_modificarActivity"
-            android:label="@string/title_Pre_modificarActivity"
-            />
+            android:label="@string/title_Pre_modificarActivity" />
         <activity
             android:name=".ModificarActivity"
-            android:label="@string/title_ModificarActivity"
-            />
-        <activity android:name=".NavActivity"></activity>
+            android:label="@string/title_ModificarActivity" />
+        <activity android:name=".NavActivity" />
+        <activity android:name=".CantidadActivity" />
+        <activity
+            android:name=".Correo"
+            android:label="@string/title_CorreoActivity" />
+        <activity android:name=".RecuperarPass"></activity>
     </application>
 
 </manifest>

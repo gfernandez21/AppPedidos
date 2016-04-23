@@ -25,7 +25,7 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
     @NotEmpty(message = "Escriba su usuario" )
     EditText userEditTextRegis;
     //@NotEmpty(message = "Escriba su password" )
-    @Password(min = 3, scheme = Password.Scheme.NUMERIC, message = "Password incorrecta")
+    @Password(min = 6, scheme = Password.Scheme.ALPHA_NUMERIC_MIXED_CASE_SYMBOLS, message = "La contraseña debe ser alfanumérica, contener simbolos, mayusculas y minusculas")
     EditText passwordEditText;
     @NotEmpty(message = "Escriba Repetir password" )
     @ConfirmPassword(message = "Passwords no coinciden")

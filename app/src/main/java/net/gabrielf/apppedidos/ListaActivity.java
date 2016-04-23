@@ -1,12 +1,16 @@
 package net.gabrielf.apppedidos;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class ListaActivity extends AppCompatActivity {
     Cursor cursor;
@@ -82,6 +86,24 @@ public class ListaActivity extends AppCompatActivity {
         lvlitems.setTextFilterEnabled(true);
         final TodoCursorAdapter todoAdapter = new TodoCursorAdapter(this, cursor);
         lvlitems.setAdapter(todoAdapter);
+
+        lvlitems.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView adapterView, View view, int posicion, long l) {
+                //Toast.makeText(getApplicationContext(), "posicion " + (i + 1) + personas[i], Toast.LENGTH_SHORT).show();
+                switch (posicion) {
+                    case 0:
+                        Intent ii = new Intent(getApplicationContext(), CantidadActivity.class);
+                        startActivity(ii);
+                        break;
+                    case 1:
+                        Toast.makeText(getApplicationContext(), "hola soy ramiro", Toast.LENGTH_SHORT).show();
+                        break;
+                    default:
+                        Toast.makeText(getApplicationContext(), "no soy ramiro ni pablo", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
 

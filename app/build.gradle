@@ -25,4 +25,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.android.support:design:23.2.1'
     compile 'com.mobsandgeeks:android-saripaar:2.0.3'
+    compile files('libs/activation.jar')
+    compile files('libs/additionnal.jar')
+    compile files('libs/mail.jar')
 }

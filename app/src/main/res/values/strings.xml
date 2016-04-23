@@ -10,6 +10,7 @@
     <string name="title_EliminarActivity">Eliminar Producto</string>
     <string name="title_Pre_modificarActivity">PreModificar Producto</string>
     <string name="title_ModificarActivity">Modificar Producto</string>
+    <string name="title_CorreoActivity">Enviar Correo</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

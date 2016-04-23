@@ -43,6 +43,8 @@ public class Pre_modificarActivity extends AppCompatActivity implements Validato
         }
     }
 
+    DatabaseHelper helper = new DatabaseHelper(this);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,9 +60,17 @@ public class Pre_modificarActivity extends AppCompatActivity implements Validato
         EditText a = (EditText)findViewById(R.id.modificar_input);
         String update = a.getText().toString();
 
+        String item = helper.searchItem(update);
+
         if (update.equals("") || update.equals(null)){
 
             validator.validate();
+
+        }
+        else if (!update.matches(item)){
+
+            Toast.makeText(this, "El id ingresado no existe", Toast.LENGTH_SHORT).show();
+
 
         }
         else{

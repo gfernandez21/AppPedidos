@@ -30,14 +30,14 @@ public class NavigationActivity extends AppCompatActivity
         TextView tv = (TextView)findViewById(R.id.textViewNombre);
         tv.setText(username);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -192,6 +192,15 @@ public class NavigationActivity extends AppCompatActivity
         if (v.getId() == R.id.imageButton10) {
             global=9;
             Intent i = new Intent(this, ListaActivity.class);
+            startActivity(i);
+
+        }
+
+    }
+
+    public void onCorreoClick(View v){
+        if (v.getId() == R.id.fab) {
+            Intent i = new Intent(this, Correo.class);
             startActivity(i);
 
         }

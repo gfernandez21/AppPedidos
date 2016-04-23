@@ -28,7 +28,7 @@
         android:layout_below="@+id/modificar_input"
         android:layout_centerHorizontal="true"
         android:onClick="modificar_clicked"
-        android:textColor="#000000"
+        android:textColor="#fefefe"
         android:textAllCaps="false"
         android:background="@drawable/botonpulsado"
         android:textSize="17sp" />

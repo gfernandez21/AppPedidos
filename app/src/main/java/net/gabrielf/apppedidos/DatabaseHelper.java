@@ -164,6 +164,32 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return a;
     }
 
+    public String searchItem(String item){
+
+        db = this.getReadableDatabase();
+        String query ="select * from " + TABLE_NAME2;
+        Cursor cursor = db.rawQuery(query, null);
+        String a, b;
+        a = "not found";
+        if (cursor.moveToFirst()){
+
+            do {
+
+                a= cursor.getString(COL_ID_PROD);
+                //b= cursor.getString(COL_PASSWORD_INDEX);
+                if (a.equals(item)){
+
+                    a = cursor.getString(COL_ID_PROD);
+                    break;
+                }
+
+            }
+            while (cursor.moveToNext());
+
+        }
+        return a;
+    }
+
     public String searchEmail(String mail){
 
         db = this.getReadableDatabase();
@@ -180,6 +206,32 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 if (a.equals(mail)){
 
                     a = cursor.getString(COL_EMAIL_INDEX);
+                    break;
+                }
+
+            }
+            while (cursor.moveToNext());
+
+        }
+        return a;
+    }
+
+    public String forgotPass(String pass){
+
+        db = this.getReadableDatabase();
+        String query ="select * from " + TABLE_NAME;
+        Cursor cursor = db.rawQuery(query, null);
+        String a, b;
+        a = "not found";
+        if (cursor.moveToFirst()){
+
+            do {
+
+                a= cursor.getString(COL_PASSWORD_INDEX);
+                //b= cursor.getString(COL_PASSWORD_INDEX);
+                if (a.equals(pass)){
+
+                    a = cursor.getString(COL_PASSWORD_INDEX);
                     break;
                 }
 

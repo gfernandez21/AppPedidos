@@ -16,13 +16,14 @@
         android:id="@+id/btn_ingresar"
         android:onClick="onButtonClick"
         android:background="@drawable/botonpulsado"
-        android:textColor="#000000"
-        android:layout_below="@+id/tv_pass"
-        android:layout_centerHorizontal="true"
+        android:textColor="#fefefe"
         android:textAllCaps="false"
-        android:layout_marginTop="45dp"
         android:allowUndo="false"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:layout_below="@+id/tv_pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -41,8 +42,8 @@
         android:id="@+id/tv_pass"
         android:hint="Contraseña"
         android:layout_below="@+id/textView4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="match_parent"
@@ -52,11 +53,11 @@
         android:onClick="onButtonClick"
         android:background="@drawable/botonpulsado2"
         android:textColor="#000000"
-        android:layout_below="@+id/btn_ingresar"
-        android:layout_centerHorizontal="true"
         android:textAllCaps="false"
-        android:layout_marginTop="45dp"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -67,7 +68,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="#181616" />
+        android:textColor="#181616"
+        android:textSize="@dimen/abc_text_size_menu_material" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -78,6 +80,19 @@
         android:textColor="#181616"
         android:layout_below="@+id/tv_user"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:textSize="@dimen/abc_text_size_menu_material" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:id="@+id/tv_forgotpass"
+        android:layout_below="@+id/btn_ingresar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:textSize="16sp"
+        android:onClick="onForgotPassClick" />
 
 </RelativeLayout>

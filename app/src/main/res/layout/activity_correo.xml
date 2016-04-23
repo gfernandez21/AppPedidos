@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.gabrielf.apppedidos.Correo">
+
+    <EditText
+        android:ems="10"
+        android:hint="Para"
+        android:id="@+id/et_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:ems="10"
+        android:hint="Asunto"
+        android:id="@+id/et_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_to"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:ems="10"
+        android:hint="Texto del mensaje"
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:layout_below="@+id/et_sub"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Enviar correo"
+        android:layout_below="@+id/et_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:textSize="17sp"
+        android:textColor="#fefefe"
+        android:textAllCaps="false"
+        android:background="@drawable/botonpulsado" />
+
+</RelativeLayout>

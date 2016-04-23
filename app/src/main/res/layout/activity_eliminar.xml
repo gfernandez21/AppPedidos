@@ -27,7 +27,7 @@
         android:id="@+id/eliminar_btn"
         android:onClick="eliminar_clicked"
         android:background="@drawable/botonpulsado"
-        android:textColor="#000000"
+        android:textColor="#fefefe"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textAllCaps="false"

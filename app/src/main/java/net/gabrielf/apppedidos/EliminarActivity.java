@@ -46,6 +46,8 @@ public class EliminarActivity extends AppCompatActivity implements Validator.Val
         }
     }
 
+    DatabaseHelper helper = new DatabaseHelper(this);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,9 +64,15 @@ public class EliminarActivity extends AppCompatActivity implements Validator.Val
         EditText a = (EditText)findViewById(R.id.modificar_input);
         String delete = a.getText().toString();
 
+        String itemdelete = helper.searchItem(delete);
+
         if (delete.equals("") || delete.equals(null)){
 
             validator.validate();
+        }
+        else if (!delete.matches(itemdelete)){
+            Toast.makeText(this, "El id ingresado no existe", Toast.LENGTH_SHORT).show();
+
         }
         else{
             dbHandler.borrarItems(Integer.parseInt(elimina_input.getText().toString()));

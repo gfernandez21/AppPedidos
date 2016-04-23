@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        setTitle(R.string.title_MainActivity);
         nombreEditText = (EditText)findViewById(R.id.tv_user);
         passwordEditText = (EditText)findViewById(R.id.tv_pass);
 
@@ -111,5 +111,14 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
 
 
         }
+    }
+
+    public void onForgotPassClick(View v){
+        if (v.getId() == R.id.tv_forgotpass) {
+            Intent i = new Intent(this, RecuperarPass.class);
+            startActivity(i);
+
+        }
+
     }
 }
