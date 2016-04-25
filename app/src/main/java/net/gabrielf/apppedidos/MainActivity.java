@@ -87,15 +87,12 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
                 i.putExtra("Username",str);
                 startActivity(i);
 
-
             }
 
             else{
                 //popup msg
                 Toast temp = Toast.makeText(MainActivity.this , "Usuario y/o Password incorrectos!", Toast.LENGTH_SHORT);
                 temp.show();
-
-
 
             }
 
@@ -108,7 +105,6 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
             Intent i = new Intent(MainActivity.this, RegistraActivity.class);
 
             startActivity(i);
-
 
         }
     }

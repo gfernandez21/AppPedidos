@@ -10,6 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.mobsandgeeks.saripaar.ValidationError;
+import com.mobsandgeeks.saripaar.Validator;
+import com.mobsandgeeks.saripaar.annotation.NotEmpty;
+
+import java.util.List;
 import java.util.Properties;
 import javax.mail.Authenticator;
 import javax.mail.Message;
@@ -20,15 +25,41 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-public class RecuperarPass extends AppCompatActivity implements View.OnClickListener {
+public class RecuperarPass extends AppCompatActivity implements View.OnClickListener, Validator.ValidationListener{
 
     Session session = null;
     ProgressDialog pdialog = null;
     Context context = null;
-    EditText reciep, sub, msg;
+    @NotEmpty(message = "Debe ingresar Email" )
+    EditText reciep;
+    EditText msg;
     String rec, subject, textMessage;
+    Validator validator;
 
     DatabaseHelper helper = new DatabaseHelper(this);
+
+    @Override
+    public void onValidationSucceeded() {
+        //Toast.makeText(this, "Dato ingresado correctamente", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onValidationFailed(List<ValidationError> errors)
+    {
+        for (ValidationError error : errors)
+        {
+            View view = error.getView();
+            String message = error.getCollatedErrorMessage(this);
+
+            if (view instanceof EditText) {
+                ((EditText) view).setError(message);
+            }
+            else
+            {
+                Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+            }
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,35 +74,51 @@ public class RecuperarPass extends AppCompatActivity implements View.OnClickList
         msg = (EditText) findViewById(R.id.et_text);
 
         login.setOnClickListener(this);
+
+        validator = new Validator(this);
+        validator.setValidationListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
 
-        String pass=null;
-        String passForgot = helper.forgotPass(pass);
+        EditText d = (EditText)findViewById(R.id.tv_recupass);
+        String email = d.getText().toString();
 
-        rec = reciep.getText().toString();
-        //subject = sub.getText().toString();
-        textMessage = passForgot;
+        if (email.equals("") || email.equals(null)){
 
-        Properties props = new Properties();
-        props.put("mail.smtp.host", "smtp.gmail.com");
-        props.put("mail.smtp.socketFactory.port", "465");
-        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
-        props.put("mail.smtp.auth", "true");
-        props.put("mail.smtp.port", "465");
+            validator.validate();
+        }
 
-        session = Session.getDefaultInstance(props, new Authenticator() {
-            protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("pedidossinlimite@gmail.com", "pedidossinlimite123");
-            }
-        });
+        else{
+            //String mail=null;
+            String passForgot = helper.forgotPass(email);
+            String sub ="Reenvio de contraseña";
+            rec = reciep.getText().toString();
+            subject = sub;
+            textMessage = passForgot;
 
-        pdialog = ProgressDialog.show(context, "", "Enviando correo...", true);
+            Properties props = new Properties();
+            props.put("mail.smtp.host", "smtp.gmail.com");
+            props.put("mail.smtp.socketFactory.port", "465");
+            props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+            props.put("mail.smtp.auth", "true");
+            props.put("mail.smtp.port", "465");
 
-        RetreiveFeedTask task = new RetreiveFeedTask();
-        task.execute();
+            session = Session.getDefaultInstance(props, new Authenticator() {
+                protected PasswordAuthentication getPasswordAuthentication() {
+                    return new PasswordAuthentication("pedidossinlimite@gmail.com", "pedidossinlimite123");
+                }
+            });
+
+            pdialog = ProgressDialog.show(context, "", "Enviando correo...", true);
+
+            RetreiveFeedTask task = new RetreiveFeedTask();
+            task.execute();
+
+        }
+
     }
 
     class RetreiveFeedTask extends AsyncTask<String, Void, String> {
@@ -83,7 +130,7 @@ public class RecuperarPass extends AppCompatActivity implements View.OnClickList
                 Message message = new MimeMessage(session);
                 message.setFrom(new InternetAddress("testfrom354@gmail.com"));
                 message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(rec));
-                //message.setSubject(subject);
+                message.setSubject(subject);
                 message.setContent(textMessage, "text/html; charset=utf-8");
                 Transport.send(message);
             } catch(MessagingException e) {

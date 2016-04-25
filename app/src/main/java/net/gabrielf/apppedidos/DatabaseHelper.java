@@ -216,10 +216,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return a;
     }
 
-    public String forgotPass(String pass){
+    public String forgotPass(String email){
 
         db = this.getReadableDatabase();
-        String query ="select * from " + TABLE_NAME;
+        String query ="select" + " " + COLUMN_PASS + " " + "from" + " " +TABLE_NAME+ " WHERE " + COLUMN_EMAIL + " = " +"\'" + email +"\'" + ";";
         Cursor cursor = db.rawQuery(query, null);
         String a, b;
         a = "not found";
@@ -227,11 +227,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
             do {
 
-                a= cursor.getString(COL_PASSWORD_INDEX);
+                a= cursor.getString(COL_ID_PROD);
                 //b= cursor.getString(COL_PASSWORD_INDEX);
-                if (a.equals(pass)){
+                if (a.equals(email)){
 
-                    a = cursor.getString(COL_PASSWORD_INDEX);
+                    a = cursor.getString(COL_ID_PROD);
                     break;
                 }
 

@@ -10,6 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.mobsandgeeks.saripaar.ValidationError;
+import com.mobsandgeeks.saripaar.Validator;
+import com.mobsandgeeks.saripaar.annotation.NotEmpty;
+
+import java.util.List;
 import java.util.Properties;
 import javax.mail.Authenticator;
 import javax.mail.Message;
@@ -20,14 +25,41 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-public class Correo extends AppCompatActivity implements View.OnClickListener {
+public class Correo extends AppCompatActivity implements View.OnClickListener, Validator.ValidationListener {
 
     Session session = null;
     ProgressDialog pdialog = null;
     Context context = null;
-    EditText reciep, sub, msg;
+    @NotEmpty(message = "Debe ingresar Email" )
+    EditText reciep;
+    @NotEmpty(message = "Debe ingresar asunto" )
+    EditText sub;
+    @NotEmpty(message = "Debe ingresar texto del mensaje" )
+    EditText msg;
     String rec, subject, textMessage;
+    Validator validator;
+    @Override
+    public void onValidationSucceeded() {
+        //Toast.makeText(this, "Dato ingresado correctamente", Toast.LENGTH_SHORT).show();
+    }
 
+    @Override
+    public void onValidationFailed(List<ValidationError> errors)
+    {
+        for (ValidationError error : errors)
+        {
+            View view = error.getView();
+            String message = error.getCollatedErrorMessage(this);
+
+            if (view instanceof EditText) {
+                ((EditText) view).setError(message);
+            }
+            else
+            {
+                Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+            }
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +74,10 @@ public class Correo extends AppCompatActivity implements View.OnClickListener {
         msg = (EditText) findViewById(R.id.et_text);
 
         login.setOnClickListener(this);
+
+        validator = new Validator(this);
+        validator.setValidationListener(this);
+
     }
 
     @Override
@@ -50,23 +86,31 @@ public class Correo extends AppCompatActivity implements View.OnClickListener {
         subject = sub.getText().toString();
         textMessage = msg.getText().toString();
 
-        Properties props = new Properties();
-        props.put("mail.smtp.host", "smtp.gmail.com");
-        props.put("mail.smtp.socketFactory.port", "465");
-        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
-        props.put("mail.smtp.auth", "true");
-        props.put("mail.smtp.port", "465");
+        if (rec.equals("") || subject.equals("") || textMessage.equals("")){
 
-        session = Session.getDefaultInstance(props, new Authenticator() {
-            protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("pedidossinlimite@gmail.com", "pedidossinlimite123");
-            }
-        });
+            validator.validate();
+        }
+        else{
+            Properties props = new Properties();
+            props.put("mail.smtp.host", "smtp.gmail.com");
+            props.put("mail.smtp.socketFactory.port", "465");
+            props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+            props.put("mail.smtp.auth", "true");
+            props.put("mail.smtp.port", "465");
 
-        pdialog = ProgressDialog.show(context, "", "Enviando correo...", true);
+            session = Session.getDefaultInstance(props, new Authenticator() {
+                protected PasswordAuthentication getPasswordAuthentication() {
+                    return new PasswordAuthentication("pedidossinlimite@gmail.com", "pedidossinlimite123");
+                }
+            });
 
-        RetreiveFeedTask task = new RetreiveFeedTask();
-        task.execute();
+            pdialog = ProgressDialog.show(context, "", "Enviando correo...", true);
+
+            RetreiveFeedTask task = new RetreiveFeedTask();
+            task.execute();
+        }
+
+
     }
 
     class RetreiveFeedTask extends AsyncTask<String, Void, String> {

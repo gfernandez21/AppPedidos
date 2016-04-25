@@ -44,7 +44,9 @@
         <activity
             android:name=".Correo"
             android:label="@string/title_CorreoActivity" />
-        <activity android:name=".RecuperarPass"></activity>
+        <activity
+            android:name=".RecuperarPass"
+            android:label="@string/title_RecuperarPass"></activity>
     </application>
 
 </manifest>

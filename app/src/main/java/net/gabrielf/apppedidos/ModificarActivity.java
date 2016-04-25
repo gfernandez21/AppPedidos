@@ -33,8 +33,6 @@ public class ModificarActivity extends AppCompatActivity implements Validator.Va
         //Toast.makeText(this, "Dato ingresado correctamente", Toast.LENGTH_SHORT).show();
     }
 
-
-
     @Override
     public void onValidationFailed(List<ValidationError> errors)
     {
@@ -52,7 +50,6 @@ public class ModificarActivity extends AppCompatActivity implements Validator.Va
             }
         }
     }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
