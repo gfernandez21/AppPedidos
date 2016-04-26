@@ -89,11 +89,12 @@ public class ListaActivity extends AppCompatActivity {
 
         lvlitems.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView adapterView, View view, int posicion, long l) {
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 //Toast.makeText(getApplicationContext(), "posicion " + (i + 1) + personas[i], Toast.LENGTH_SHORT).show();
-                switch (posicion) {
+                /*switch (posicion) {
                     case 0:
                         Intent ii = new Intent(getApplicationContext(), CantidadActivity.class);
+                        ii.putExtra ( " jobNo ", ii.jobNo );
                         startActivity(ii);
                         break;
                     case 1:
@@ -101,7 +102,11 @@ public class ListaActivity extends AppCompatActivity {
                         break;
                     default:
                         Toast.makeText(getApplicationContext(), "no soy ramiro ni pablo", Toast.LENGTH_SHORT).show();
-                }
+                }*/
+                String valor= (String) adapterView.getItemAtPosition(position);
+                Intent nuevoActi = new Intent(ListaActivity.this,CantidadActivity.class);
+                nuevoActi.putExtra("data",valor);
+                startActivity(nuevoActi);
             }
         });
     }

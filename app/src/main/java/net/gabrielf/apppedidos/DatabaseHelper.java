@@ -242,6 +242,32 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return a;
     }
 
+    public String recuEmail(String user){
+
+        db = this.getReadableDatabase();
+        String query ="select" + " " + COLUMN_EMAIL + " " + "from" + " " +TABLE_NAME+ " WHERE " + COLUMN_UNAME + " = " +"\'" + user +"\'" + ";";
+        Cursor cursor = db.rawQuery(query, null);
+        String a, b;
+        a = "not found";
+        if (cursor.moveToFirst()){
+
+            do {
+
+                a= cursor.getString(COL_ID_PROD);
+                //b= cursor.getString(COL_PASSWORD_INDEX);
+                if (a.equals(user)){
+
+                    a = cursor.getString(COL_ID_PROD);
+                    break;
+                }
+
+            }
+            while (cursor.moveToNext());
+
+        }
+        return a;
+    }
+
     //listar a todos los productos
     public Cursor listaritems(){
         SQLiteDatabase db = getReadableDatabase();

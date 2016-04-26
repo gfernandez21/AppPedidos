@@ -1,5 +1,6 @@
 package net.gabrielf.apppedidos;
 
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;

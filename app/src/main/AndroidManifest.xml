@@ -39,7 +39,6 @@
         <activity
             android:name=".ModificarActivity"
             android:label="@string/title_ModificarActivity" />
-        <activity android:name=".NavActivity" />
         <activity android:name=".CantidadActivity" />
         <activity
             android:name=".Correo"
