@@ -38,7 +38,6 @@
         android:layout_below="@+id/tv_recupass"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="51dp"
-        android:textSize="17sp"
         android:textColor="#fefefe"
         android:textAllCaps="false"
         android:background="@drawable/botonpulsado" />

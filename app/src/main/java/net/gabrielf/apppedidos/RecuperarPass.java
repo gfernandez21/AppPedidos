@@ -12,7 +12,8 @@ import android.widget.Toast;
 
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
-import com.mobsandgeeks.saripaar.annotation.NotEmpty;
+import com.mobsandgeeks.saripaar.annotation.Email;
+
 
 import java.util.List;
 import java.util.Properties;
@@ -30,7 +31,7 @@ public class RecuperarPass extends AppCompatActivity implements View.OnClickList
     Session session = null;
     ProgressDialog pdialog = null;
     Context context = null;
-    @NotEmpty(message = "Debe ingresar Email" )
+    @Email(message = "Email incorrecto")
     EditText reciep;
     EditText msg;
     String rec, subject, textMessage;
@@ -85,10 +86,17 @@ public class RecuperarPass extends AppCompatActivity implements View.OnClickList
 
         EditText d = (EditText)findViewById(R.id.tv_recupass);
         String email = d.getText().toString();
+        String emailuser = helper.searchEmail(email);
 
         if (email.equals("") || email.equals(null)){
 
             validator.validate();
+
+        }
+        else if (!email.matches(emailuser)){
+
+            Toast.makeText(this, "El email ingresado no se encuentra registrado", Toast.LENGTH_SHORT).show();
+
         }
 
         else{

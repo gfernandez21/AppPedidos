@@ -12,9 +12,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="@string/emptyString3"
         android:id="@+id/lbl_mensaje"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="56dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emptyString3"
+        android:id="@+id/lbl_mensaje1"
+        android:layout_below="@+id/lbl_mensaje"
+        android:layout_alignLeft="@+id/lbl_mensaje"
+        android:layout_alignStart="@+id/lbl_mensaje"
+        android:layout_marginTop="38dp" />
 </RelativeLayout>

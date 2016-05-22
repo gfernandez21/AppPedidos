@@ -48,9 +48,9 @@
         android:text="Tacos"
         android:id="@+id/textView18"
         android:textSize="@dimen/abc_text_size_medium_material"
-        android:layout_below="@+id/imageButton12"
-        android:layout_alignRight="@+id/imageButton12"
-        android:layout_alignEnd="@+id/imageButton12" />
+        android:layout_above="@+id/imageButton13"
+        android:layout_alignLeft="@+id/imageButton12"
+        android:layout_alignStart="@+id/imageButton12" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -149,8 +149,8 @@
         android:id="@+id/textView26"
         android:textSize="@dimen/abc_text_size_medium_material"
         android:layout_below="@+id/imageButton18"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_alignEnd="@+id/textView2" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"

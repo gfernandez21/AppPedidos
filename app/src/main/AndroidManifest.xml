@@ -11,11 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".RegistraActivity"
@@ -39,13 +42,48 @@
         <activity
             android:name=".ModificarActivity"
             android:label="@string/title_ModificarActivity" />
-        <activity android:name=".CantidadActivity" />
+        <activity
+            android:name=".CantidadActivity"
+            android:label="@string/title_CantidadActivity" />
         <activity
             android:name=".Correo"
             android:label="@string/title_CorreoActivity" />
         <activity
             android:name=".RecuperarPass"
-            android:label="@string/title_RecuperarPass"></activity>
+            android:label="@string/title_RecuperarPass" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PedidoActivity"
+            android:label="@string/title_activity_pedido"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PedidofinalActivity"
+            android:label="@string/title_activity_pedidofinal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MiPerfilActivity"
+            android:label="@string/title_MiPerfilActivity" />
+        <activity
+            android:name=".MisDireccionesActivity"
+            android:label="@string/title_MisDireccionesActivity" />
+        <activity
+            android:name=".ListaPedidosActivity"
+            android:label="@string/title_ListaPedidosActivity" />
+        />
+        <activity
+            android:name=".PrincipalPedidoActivity"
+            android:label="@string/title_PrincipalPedidoActivity" />
+        <activity android:name=".PedidoDetaActivity"
+            android:label="@string/title_PedidoDetaActivity"></activity>
     </application>
 
 </manifest>

@@ -3,25 +3,36 @@ package net.gabrielf.apppedidos;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.renderscript.Sampler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.CursorAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
-public class ListaActivity extends AppCompatActivity {
+public class PedidoActivity extends AppCompatActivity {
+
     Cursor cursor;
     DatabaseHelper helper = new DatabaseHelper(this);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lista);
+        setContentView(R.layout.activity_pedido);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });*/
 
         if (NavigationActivity.global ==1) {
             DatabaseHelper dbHandler;
@@ -96,15 +107,24 @@ public class ListaActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 //Toast.makeText(getApplicationContext(), "posicion " + (i + 1) + personas[i], Toast.LENGTH_SHORT).show();
 
-                switch (position) {
-                    case 0:
+                if (position >=0){
+                    Cursor colCur=(Cursor)adapterView.getItemAtPosition(position);
+                    String col=colCur.getString(colCur.getColumnIndex("nombreprod"));
+                    Intent ii = new Intent(getApplicationContext(), CantidadActivity.class);
+                    ii.putExtra ("data", col);
+                    startActivity(ii);
+
+                }
+
+                //switch (position) {
+                  //  case 0:
 
                         //String c =String.valueOf(adapterView.getItemAtPosition(position));
 
-                        Cursor colCur=(Cursor)adapterView.getItemAtPosition(position);
-                        String col=colCur.getString(colCur.getColumnIndex("_id"));
-                        Intent ii = new Intent(getApplicationContext(), CantidadActivity.class);
-                        ii.putExtra ("data", col);
+                    //    Cursor colCur=(Cursor)adapterView.getItemAtPosition(position);
+                      //  String col=colCur.getString(colCur.getColumnIndex("nombreprod"));
+                        //Intent ii = new Intent(getApplicationContext(), CantidadActivity.class);
+                        //ii.putExtra ("data", col);
                         //startActivity(ii);
                         /*Intent intent1 = new Intent(getApplicationContext(),CantidadActivity.class);
                         SQLiteDatabase db = helper.getWritableDatabase();
@@ -115,23 +135,32 @@ public class ListaActivity extends AppCompatActivity {
 
                         intent1.putExtra("data", test);
                         startActivity(intent1);*/
-                        break;
+                        /*break;
                     case 1:
                         Cursor colCur1=(Cursor)adapterView.getItemAtPosition(position);
-                        String col1=colCur1.getString(colCur1.getColumnIndex("_id"));
+                        String col1=colCur1.getString(colCur1.getColumnIndex("nombreprod"));
                         Intent iii = new Intent(getApplicationContext(), CantidadActivity.class);
                         iii.putExtra ("data1", col1);
-                        //startActivity(iii);
+                        startActivity(iii);
                         break;
                     default:
                         Toast.makeText(getApplicationContext(), "no soy ramiro ni pablo", Toast.LENGTH_SHORT).show();
-                }
+                }*/
                 /*String valor= (String) adapterView.getItemAtPosition(position);
                 Intent nuevoActi = new Intent(ListaActivity.this,CantidadActivity.class);
                 nuevoActi.putExtra("data",valor);
                 startActivity(nuevoActi);*/
             }
         });
+    }
+
+    public void onPedidoClick(View v){
+        if (v.getId() == R.id.fab) {
+            Intent i = new Intent(this, CantidadActivity.class);
+            startActivity(i);
+
+        }
+
     }
 
 }

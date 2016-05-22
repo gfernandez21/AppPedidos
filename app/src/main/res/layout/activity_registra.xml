@@ -12,7 +12,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_nombre"
+        android:id="@+id/tv_nombre2"
         android:hint="Nombre"
         android:layout_below="@+id/textView5"
         android:layout_alignParentLeft="true"
@@ -21,7 +21,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_correo"
+        android:id="@+id/tv_correo2"
         android:hint="Correo Electronico"
         android:layout_below="@+id/textView6"
         android:layout_alignParentLeft="true"
@@ -45,8 +45,7 @@
         android:background="@drawable/botonpulsado"
         android:textColor="#fefefe"
         android:textAllCaps="false"
-        android:textSize="17sp"
-        android:layout_below="@+id/tv_pass2"
+        android:layout_below="@+id/pass2_2"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="45dp" />
@@ -67,7 +66,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/tv_pass2"
+        android:id="@+id/pass2_2"
         android:hint="Confirmar Contraseña"
         android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true" />
@@ -92,7 +91,7 @@
         android:id="@+id/textView6"
         android:textColor="#181616"
         android:textSize="@dimen/abc_text_size_menu_material"
-        android:layout_below="@+id/tv_nombre"
+        android:layout_below="@+id/tv_nombre2"
         android:layout_alignLeft="@+id/textView7"
         android:layout_alignStart="@+id/textView7" />
 
@@ -104,7 +103,7 @@
         android:id="@+id/textView7"
         android:textColor="#181616"
         android:textSize="@dimen/abc_text_size_menu_material"
-        android:layout_below="@+id/tv_correo"
+        android:layout_below="@+id/tv_correo2"
         android:layout_alignRight="@+id/textView5"
         android:layout_alignEnd="@+id/textView5" />
 

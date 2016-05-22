@@ -30,8 +30,7 @@
         android:textColor="#fefefe"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textAllCaps="false"
-        android:textSize="17sp" />
+        android:textAllCaps="false" />
 
     <TextView
         android:layout_width="wrap_content"

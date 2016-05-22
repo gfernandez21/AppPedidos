@@ -45,9 +45,9 @@
         android:textColor="#fefefe"
         android:onClick="onClick"
         android:textAllCaps="false"
-        android:textSize="17sp"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        />
 
     <Button
         android:layout_width="match_parent"
@@ -58,7 +58,6 @@
         android:background="@drawable/botonpulsado"
         android:textColor="#fefefe"
         android:textAllCaps="false"
-        android:textSize="17sp"
         android:layout_below="@+id/btn_prod"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -73,7 +72,6 @@
         android:textColor="#fefefe"
         android:onClick="premodificar"
         android:textAllCaps="false"
-        android:textSize="17sp"
         android:layout_marginTop="33dp"
         android:layout_below="@+id/btn_eliminar"
         android:layout_centerHorizontal="true" />

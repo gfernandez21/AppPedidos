@@ -18,9 +18,7 @@
         android:background="@drawable/botonpulsado"
         android:textColor="#fefefe"
         android:textAllCaps="false"
-        android:allowUndo="false"
-        android:textSize="17sp"
-        android:layout_below="@+id/tv_pass"
+        android:layout_below="@+id/pass2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="33dp" />
@@ -39,7 +37,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/tv_pass"
+        android:id="@+id/pass2"
         android:hint="Contraseña"
         android:layout_below="@+id/textView4"
         android:layout_alignParentRight="true"
@@ -52,12 +50,12 @@
         android:id="@+id/btn_singin"
         android:onClick="onButtonClick"
         android:background="@drawable/botonpulsado2"
-        android:textColor="#000000"
+        android:textColor="#fdfbfb"
         android:textAllCaps="false"
-        android:textSize="17sp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:clickable="false" />
 
     <TextView
         android:layout_width="wrap_content"

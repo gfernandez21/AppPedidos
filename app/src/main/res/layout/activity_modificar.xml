@@ -47,8 +47,7 @@
         android:background="@drawable/botonpulsado"
         android:textColor="#fefefe"
         android:textAllCaps="false"
-        android:onClick="modificar_clicked"
-        android:textSize="17sp" />
+        android:onClick="modificar_clicked" />
 
     <TextView
         android:layout_width="wrap_content"

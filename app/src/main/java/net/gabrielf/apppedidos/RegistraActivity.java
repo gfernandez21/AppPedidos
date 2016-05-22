@@ -66,11 +66,11 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registra);
 
-        tv_nombre = (EditText)findViewById(R.id.tv_nombre);
-        emailEditTextRegis = (EditText)findViewById(R.id.tv_correo);
+        tv_nombre = (EditText)findViewById(R.id.tv_nombre2);
+        emailEditTextRegis = (EditText)findViewById(R.id.tv_correo2);
         userEditTextRegis = (EditText)findViewById(R.id.tv_usuario);
         passwordEditText = (EditText)findViewById(R.id.tv_pass1);
-        confirmarPasswordEditText = (EditText)findViewById(R.id.tv_pass2);
+        confirmarPasswordEditText = (EditText)findViewById(R.id.pass2_2);
 
         validator = new Validator(this);
         validator.setValidationListener(this);
@@ -80,11 +80,11 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
 
     public void lim(){
 
-        EditText name1 = (EditText)findViewById(R.id.tv_nombre);
-        EditText email1 = (EditText)findViewById(R.id.tv_correo);
+        EditText name1 = (EditText)findViewById(R.id.tv_nombre2);
+        EditText email1 = (EditText)findViewById(R.id.tv_correo2);
         EditText user1 = (EditText)findViewById(R.id.tv_usuario);
         EditText pass11 = (EditText)findViewById(R.id.tv_pass1);
-        EditText pass21 = (EditText)findViewById(R.id.tv_pass2);
+        EditText pass21 = (EditText)findViewById(R.id.pass2_2);
 
         name1.setText("");
         email1.setText("");
@@ -101,11 +101,11 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
 
         if(v.getId() == R.id.btn_registrar){
 
-            EditText name = (EditText)findViewById(R.id.tv_nombre);
-            EditText email = (EditText)findViewById(R.id.tv_correo);
+            EditText name = (EditText)findViewById(R.id.tv_nombre2);
+            EditText email = (EditText)findViewById(R.id.tv_correo2);
             EditText user = (EditText)findViewById(R.id.tv_usuario);
             EditText pass1 = (EditText)findViewById(R.id.tv_pass1);
-            EditText pass2 = (EditText)findViewById(R.id.tv_pass2);
+            EditText pass2 = (EditText)findViewById(R.id.pass2_2);
 
             String namstr = name.getText().toString();
             String emailstr = email.getText().toString();
@@ -161,11 +161,11 @@ public class RegistraActivity extends AppCompatActivity implements Validator.Val
 
     public void regis(){
 
-        EditText name = (EditText)findViewById(R.id.tv_nombre);
-        EditText email = (EditText)findViewById(R.id.tv_correo);
+        EditText name = (EditText)findViewById(R.id.tv_nombre2);
+        EditText email = (EditText)findViewById(R.id.tv_correo2);
         EditText user = (EditText)findViewById(R.id.tv_usuario);
         EditText pass1 = (EditText)findViewById(R.id.tv_pass1);
-        EditText pass2 = (EditText)findViewById(R.id.tv_pass2);
+        EditText pass2 = (EditText)findViewById(R.id.pass2_2);
 
         String namstr = name.getText().toString();
         String emailstr = email.getText().toString();

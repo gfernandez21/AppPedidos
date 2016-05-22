@@ -1,6 +1,5 @@
 package net.gabrielf.apppedidos;
 
-import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -57,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
         setContentView(R.layout.activity_main);
         setTitle(R.string.title_MainActivity);
         nombreEditText = (EditText)findViewById(R.id.tv_user);
-        passwordEditText = (EditText)findViewById(R.id.tv_pass);
+        passwordEditText = (EditText)findViewById(R.id.pass2);
 
         validator = new Validator(this);
         validator.setValidationListener(this);
@@ -69,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
 
             EditText a = (EditText)findViewById(R.id.tv_user);
             String str = a.getText().toString();
-            EditText b = (EditText)findViewById(R.id.tv_pass);
+            EditText b = (EditText)findViewById(R.id.pass2);
             String pass = b.getText().toString();
 
             String password = helper.searchPass(str);

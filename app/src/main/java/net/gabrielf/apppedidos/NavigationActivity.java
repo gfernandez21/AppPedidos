@@ -19,6 +19,8 @@ import android.widget.TextView;
 public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     static int global=0;
+    String recuMail;
+    String username;
     DatabaseHelper helper = new DatabaseHelper(this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,7 @@ public class NavigationActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         //Muestra nombre de usuario en la Activity navigation
-        String username = getIntent().getStringExtra("Username");
+        username = getIntent().getStringExtra("Username");
         TextView tv = (TextView)findViewById(R.id.textViewNombre);
         tv.setText(username);
 
@@ -55,7 +57,7 @@ public class NavigationActivity extends AppCompatActivity
         text.setText(username);
 
 
-        String recuMail = helper.recuEmail(username);
+        recuMail= helper.recuEmail(username);
 
         TextView text1 = (TextView) header.findViewById(R.id.textView);
         text1.setText(recuMail);
@@ -91,7 +93,9 @@ public class NavigationActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent i = new Intent(this, PedidofinalActivity.class);
+            i.putExtra("Username",username);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
@@ -105,13 +109,20 @@ public class NavigationActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Intent i = new Intent(this, MiPerfilActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_gallery) {
+            Intent i = new Intent(this, MisDireccionesActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
+            Intent i = new Intent(this, PrincipalPedidoActivity.class);
+            i.putExtra("Username",username);
+            startActivity(i);
 
         } else if (id == R.id.nav_send) {
             Intent i = new Intent(this, RegistraProdActivity.class);
@@ -127,7 +138,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaPizzaClick(View v){
         if (v.getId() == R.id.imageButton11) {
             global=1;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
         }
@@ -137,7 +148,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaHotDogClick(View v){
          if (v.getId() == R.id.imageButton13) {
              global=2;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
          }
@@ -147,7 +158,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaNuggetClick(View v){
         if (v.getId() == R.id.imageButton17) {
             global=3;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
         }
@@ -157,7 +168,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaPapasFritasClick(View v){
         if (v.getId() == R.id.imageButton14) {
             global=4;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
         }
@@ -167,7 +178,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaChurrascoClick(View v){
         if (v.getId() == R.id.imageButton15) {
             global=5;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
         }
@@ -177,7 +188,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaBebidasClick(View v){
         if (v.getId() == R.id.imageButton18) {
             global=6;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
         }
@@ -187,7 +198,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaTacoClick(View v){
         if (v.getId() == R.id.imageButton12) {
             global=7;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
         }
@@ -197,7 +208,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaCombosClick(View v){
         if (v.getId() == R.id.imageButton16) {
             global=8;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
         }
@@ -207,7 +218,7 @@ public class NavigationActivity extends AppCompatActivity
     public void onCategoriaCafeClick(View v){
         if (v.getId() == R.id.imageButton10) {
             global=9;
-            Intent i = new Intent(this, ListaActivity.class);
+            Intent i = new Intent(this, PedidoActivity.class);
             startActivity(i);
 
         }
